@@ -8,7 +8,8 @@ import KnmLOGO from "../../img/KNM_LOGO.png";
 const NAVBAR = () =>{
     return (
         <>
-           <header className={style.navbar}>
+           <header >
+            <div className={style.navbar}>
                 <div className={style.logo}>
                         <img src={KnmLOGO} alt="knmStudio" height={90}  />
                 </div>
@@ -28,7 +29,19 @@ const NAVBAR = () =>{
                       {/* <CloseIcon />  */}
                       <MenuIcon />
                 </div>
-
+            </div>   
+                {/* DropDown */}
+                <div className={style.dropDown}>
+                    <li className={style.link}>Home</li>
+                    <li className={style.link}>About Us</li>
+                    <li className={style.link}>Services</li>
+                    <li className={style.link}>Our Work</li>
+                    <li className={style.link}>Blogs</li>
+                    <li className={style.link}>Contact Us</li>
+                    <li className={style.link}>  <div className={style.actionBtn}>
+                    Start a Project
+                     </div></li>
+                </div>
            </header>
         </>
     );

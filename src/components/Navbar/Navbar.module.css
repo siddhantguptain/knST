@@ -3,21 +3,23 @@
     color:var(--textColor);
 }
 
-ul li {
+li {
     text-decoration: none;
     list-style: none;
 }
 
 header{
     position: relative;
-    padding: 1rem 6rem;
+   
 }
 .navbar{
     /* width: 100%; */
     height: 90px;
+    padding: 0.5rem 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
     /* Links */
     .links{
@@ -37,6 +39,7 @@ header{
     .actionBtn:hover{
         background-color: var(--bgColor);
         border: var(--themeBgColor) 2px solid;
+        padding: 0.2rem 0.9rem;
         color:var(--textColor);
     }
     /* Toggle Btn */
@@ -45,4 +48,40 @@ header{
         display: none;
     }
     
+/* Drop Down */
+.dropDown{
+    position: absolute;
+    right: 2rem;
+    top: 100px;
+    width: 350px;
+    background-color: var(--bgColor);
+    backdrop-filter:blur(15px);
+    color: var(--textColor);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+.dropDown li{
+    padding: 0.7rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* Responcive */
+@media (max-width: 1054px){
+    .navbar{
+        padding: 0 3rem;
+    }
+    .links{
+        display: none;
+    }
+    .navbar .actionBtn{
+        display: none;
+    }
+    .toggleNav{
+        display: block;
+    }
+
 }
