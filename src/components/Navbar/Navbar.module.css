@@ -1,0 +1,48 @@
+.navbar{
+    background-color:var(--bgColor);
+    color:var(--textColor);
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    position: relative;
+    padding: 1rem 6rem;
+}
+.navbar{
+    /* width: 100%; */
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* Links */
+    .links{
+        display: flex;
+        gap: 2rem;
+    }
+
+    /* Action BTN */
+    .actionBtn{
+        background-color: var(--themeBgColor);
+        color: #131313;
+        font-weight: 700;
+        padding: 0.3rem 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .actionBtn:hover{
+        background-color: var(--bgColor);
+        border: var(--themeBgColor) 2px solid;
+        color:var(--textColor);
+    }
+    /* Toggle Btn */
+    .toggleNav{
+        color: var(--themeBgColor);
+        display: none;
+    }
+    
+}
