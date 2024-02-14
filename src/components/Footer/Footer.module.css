@@ -1,0 +1,49 @@
+.footerCon{
+    /* background-image: url("../../img/bg-1.png"); */
+    padding-top: 2rem;
+    background-color: #1b1b1b;
+}
+
+.container{
+    color: var(--textColor);
+    display: flex;
+    padding: 1rem 6rem;
+}
+
+.callForAction{
+   font-size: 2.7rem;
+   font-weight: 700;
+   font-style: italic;
+   flex: 3;
+}
+
+.contact{
+    flex: 1;
+}
+
+.address{
+    flex: 1;
+}
+
+.footerHeading{
+    color: var(--headingText);
+    font-weight: 700;
+    margin: -5px 0 10px 0;
+
+}
+.line{
+    content: "";
+    border-bottom: 1px solid #8d6f5a;
+    border-radius: 10px ;
+    width: 50%;
+    margin-top: 2rem;
+    margin: 0 23rem;
+ 
+}
+.copyRight{
+    color: var(--headingText);
+    font-weight: 700;
+    padding: 7px 0 10px 0;
+    text-align: center;
+   
+}
