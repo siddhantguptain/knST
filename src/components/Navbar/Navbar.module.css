@@ -1,17 +1,23 @@
-.navbar{
-    background-color:var(--bgColor);
-    color:var(--textColor);
-}
-
-li {
+ul {
     text-decoration: none;
     list-style: none;
 }
 
-header{
-    position: relative;
-   
+a {
+    text-decoration: none;
+    color: var(--textColor);
 }
+header{
+    z-index: 1;
+    opacity: 1;
+    background-color:var(--bgColor);
+    /* backdrop-filter: blur(2px); */
+    color:var(--textColor);
+    position: sticky;
+    top: 0;
+
+}
+
 .navbar{
     /* width: 100%; */
     height: 90px;
@@ -25,6 +31,10 @@ header{
     .links{
         display: flex;
         gap: 2rem;
+        
+    }
+    .link Link{
+        forced-color-adjust: var(--textColor);
     }
 
     /* Action BTN */
@@ -62,7 +72,8 @@ header{
     z-index: 1;
 }
 .dropDown li{
-    padding: 0.7rem;
+    display: none;
+    padding: 0.6rem;
     justify-content: center;
     text-align: center;
     font-size: 1.4rem;
