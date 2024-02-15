@@ -1,0 +1,13 @@
+.homeContainer{
+   
+}
+.mainContainer{
+    min-height: 110vh;
+    margin-top: -150px;
+    padding: 30vh 7vw;
+    background-image: url('../../img/bg-dot.png');
+    
+}
+.LandingContainer{
+    min-height: 90vh;
+}

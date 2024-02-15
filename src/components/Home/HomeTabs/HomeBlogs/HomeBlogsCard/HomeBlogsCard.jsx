@@ -4,7 +4,7 @@ const HomeBlogsCard =() =>{
     return(
         <>  
             <div className={style.container}>
-                HomeBlogCard
+                
             </div>
         </>
     );
