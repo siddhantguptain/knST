@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./Navbar.module.css";
 
 import { Link } from "react-router-dom";
@@ -7,9 +7,20 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import KnmLOGO from "../../img/KNM_LOGO.png";
 const NAVBAR = () =>{
+    // Bg-Color
+    const [bgColor , setBgColor] = useState(false);
+    const changeBgColor = ()=>{
+        if (window.scrollY  >= 90) {
+            setBgColor(true);
+        }else{
+            setBgColor(false);
+        }
+    }
+    window.addEventListener('scroll' , changeBgColor);
+
     return (
         <>
-           <header className={style.nav}>
+           <header className={bgColor ? `${style.headerBg}` : ''}>
             <div className={style.navbar}>
                 <div className={style.logo}>
                         <img src={KnmLOGO} alt="knmStudio" height={90}  />
