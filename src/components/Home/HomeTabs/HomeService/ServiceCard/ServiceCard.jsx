@@ -4,7 +4,7 @@ const ServicesCard = (props ) =>{
     return(
         <>  
             <div className={style.container}>
-                <div className={style.ServicesIcon}>
+                <div className={style.serviceIcon}>
                     Icon
                 </div>
                 <div className={style.serciveTitle}>
