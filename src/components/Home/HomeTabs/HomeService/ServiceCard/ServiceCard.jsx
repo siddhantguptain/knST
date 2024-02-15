@@ -1,11 +1,12 @@
 import style from './ServiceCard.module.css';
+import { FaRegLightbulb } from "react-icons/fa";
 
 const ServicesCard = (props ) =>{
     return(
         <>  
             <div className={style.container}>
                 <div className={style.serviceIcon}>
-                    Icon
+                <FaRegLightbulb size={90} />
                 </div>
                 <div className={style.serciveTitle}>
                 {props.ServiceTitle}
