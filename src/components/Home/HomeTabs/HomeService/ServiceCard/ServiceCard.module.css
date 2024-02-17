@@ -12,7 +12,7 @@
 
 .serviceIcon{
     margin-top: 14px;
-    color: var( --headingText);
+    color: var( --textColor);
 }
 
 .serciveTitle{
