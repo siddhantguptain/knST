@@ -1,12 +1,20 @@
-import React, {useState} from "react";
+import React, {useState , useEffect} from "react";
 import style from "./Navbar.module.css";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import { Link } from "react-router-dom";
-import CloseIcon from '@mui/icons-material/Close';
+// import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 
 import KnmLOGO from "../../img/KNM_LOGO.png";
 const NAVBAR = () =>{
+    useEffect(() =>{
+        AOS.init({duration:1400});
+    },[]);
+
     // Bg-Color
     const [bgColor , setBgColor] = useState(false);
     const changeBgColor = ()=>{
@@ -21,7 +29,7 @@ const NAVBAR = () =>{
     return (
         <>
            <header className={bgColor ? `${style.headerBg}` : ''}>
-            <div className={style.navbar}>
+            <div className={style.navbar} data-aos="zoom-in-down">
                 <div className={style.logo}>
                         <img src={KnmLOGO} alt="knmStudio" height={90}  />
                 </div>
