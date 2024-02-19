@@ -1,0 +1,12 @@
+.container{
+    min-height: 100vh;
+    margin: -150px 0 0 -6vw; 
+    border: 2px solid transparent;
+   
+}   
+
+video{
+    object-fit: cover;
+    height: 96vh;
+    width: 107%;
+}

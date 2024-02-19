@@ -1,4 +1,8 @@
+import React, {useEffect}  from "react";
 import style from './HomeService.module.css';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import ServiceCard from './ServiceCard/ServiceCard';
 
@@ -11,10 +15,13 @@ import { PiFileVideoLight } from "react-icons/pi";
 
 
 const HomeService =() =>{
+     useEffect(() =>{
+          AOS.init({duration:1400});
+      },[]);
     return(
         <>  
             <div className={style.container}>
-                 <h3 className={style.title} >LET’S CHECK OUR SERVICES</h3>
+                 <h3 className={style.title} data-aos="zoom-in-up">LET’S CHECK OUR SERVICES</h3>
                 <div className={style.serviceCard}>
                     <ServiceCard className={style.Card}
                          icon={<PiLightbulbLight  size={90} />}     

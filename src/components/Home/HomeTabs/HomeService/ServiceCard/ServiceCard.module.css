@@ -3,10 +3,11 @@
     height: 240px;
     margin: 0.5rem;
     padding: 2rem 1.5rem;
-    border: 0.2px solid #ddd;
-    border-radius: 5px;
+    border: 0.2px solid var(--textColor);
+    border-radius: 7px;
     text-align: center;
     backdrop-filter: blur(3px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
 

@@ -1,10 +1,16 @@
+import React, {useEffect}  from "react";
 import style from './ServiceCard.module.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServicesCard = (props ) =>{
+    useEffect(() =>{
+        AOS.init({duration:1400});
+    },[]);
     return(
         <>  
-            <div className={style.container}>
+            <div className={style.container} data-aos="flip-down">
                 <div className={style.serviceIcon}>
                 {/* <FaRegLightbulb size={90} /> */}
                 {props.icon}
