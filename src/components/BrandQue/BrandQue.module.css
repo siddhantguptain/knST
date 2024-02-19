@@ -3,7 +3,8 @@
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;
-
+    background-color: transparent;
+    /* backdrop-filter: blur(10px); */
 }
 
 @keyframes slide {

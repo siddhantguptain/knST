@@ -7,6 +7,7 @@ import Services from './components/Pages/Services/Services';
 import OurWork from './components/Pages/OurWork/OurWork';
 import Blogs from './components/Pages/Blogs/Blogs';
 import ContactUs from './components/Pages/ContactUs/ContactUs';
+import SocialMedia from './components/SocialMedia/SocialMedia';
 import FOOTER from './components/Footer/Footer';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <Route path="/blogs" element={<Blogs />}  />
               <Route path="/contact-us" element={<ContactUs />}  />
             </Routes>
+          <SocialMedia />
           <FOOTER />
     </div>
   );

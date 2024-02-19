@@ -20,7 +20,16 @@ const Home = () =>{
                    <HomeAbout />
                    <HomeService />
                    {/* Testimonial */}
-                   <BrandQue />
+                   <div className={style.queDiv}>
+                   <div className={style.subTitle}>
+                    <h5>⦿ OUR CLIENTS</h5>
+                </div>
+                <div className={style.title}>
+                    <h1>YOUR SUCCESSFUL, OUR REPUTATION</h1>
+                </div>
+                        <BrandQue />
+                   </div>
+                   
                    <HomeBlogs />
                 </div>
             </div>

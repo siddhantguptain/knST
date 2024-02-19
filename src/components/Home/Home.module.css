@@ -11,3 +11,14 @@
 .LandingContainer{
     min-height: 90vh;
 }
+.queDiv{
+    margin: 40vh 0 -20vh 0;
+}
+.subTitle{
+    font-size: 1.2rem;
+    margin-bottom: -21px;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
