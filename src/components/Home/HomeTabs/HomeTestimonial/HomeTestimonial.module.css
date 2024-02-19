@@ -20,6 +20,9 @@
     padding: 2rem;
     display: flex;
 }
+.space{
+    margin-top: 7px;
+}
 .testimonialMain{
     flex: 45;
 }

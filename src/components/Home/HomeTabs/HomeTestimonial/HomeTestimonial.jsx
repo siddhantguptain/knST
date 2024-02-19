@@ -39,9 +39,10 @@ const HomeTestimonial =() =>{
                               </>  
                             }
                             userName="Siddharth Gupta"
-                            userRole="Marketing Head Spardha Learning"
+                            userRole="Marketing Head -  Spardha Learning"
                        />
                 </div>
+                 <div className={style.space} />
                 <div className={style.testimonial}>
                      <HomeTestimonialCard 
                             text={
