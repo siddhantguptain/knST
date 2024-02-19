@@ -1,18 +1,26 @@
+import { useEffect } from "react";
 import style from './HomeTestimonial.module.css';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import HomeTestimonialCard from "./HomeTestimonialCard/HomeTestimonialCard";
 
 const HomeTestimonial =() =>{
+    useEffect(() =>{
+        AOS.init({duration:2000});
+    },[]);
     return(
         <>  
-            <div className={style.container}>
+            <div className={style.container} data-aos="fade-right">
                 <div className={style.subTitle}>
                     <h5>⦿ TESTIMONIALS</h5>
                 </div>
-                <div className={style.title}>
+                <div className={style.title} data-aos="fade-right">
                     <h1>WHAT PEOPLE ARE SAYING</h1>
                 </div>
                 <div className={style.subContainer}>
-                <div className={style.testimonialMain}>
+                <div className={style.testimonialMain} data-aos="zoom-in-up"    >
                        <HomeTestimonialCard 
                             text={
                                 <>
@@ -27,8 +35,8 @@ const HomeTestimonial =() =>{
                             userRole="Founder Cologne Spa"
                        />
                 </div>
-                <div className={style.subSubContainer}>
-                <div className={style.testimonial}>
+                <div className={style.subSubContainer} data-aos="zoom-in-up">
+                <div className={style.testimonial} >
                     <HomeTestimonialCard 
                             text={
                                 <>
@@ -43,7 +51,7 @@ const HomeTestimonial =() =>{
                        />
                 </div>
                  <div className={style.space} />
-                <div className={style.testimonial}>
+                <div className={style.testimonial} >
                      <HomeTestimonialCard 
                             text={
                                 <>
