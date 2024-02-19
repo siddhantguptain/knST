@@ -1,0 +1,32 @@
+.container{
+    margin-top: 20vh;
+    min-height: 90vh;
+    padding: 1rem 3rem;
+}
+
+.subTitle{
+    font-size: 1.2rem;
+    margin-bottom: -29px;
+    opacity: 0.7;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.subContainer{
+    min-height: 70vh;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    display: flex;
+}
+.testimonialMain{
+    flex: 45;
+}
+.subSubContainer{
+    padding: 0px 0 4px 14px;
+    flex: 55;
+}
+.testimonial{
+    padding: 3px;
+}
