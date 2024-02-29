@@ -1,10 +1,10 @@
 .container{
-    margin: 2%;
+    margin: 59px 2% 0px 2%;
     width: 400px;
     height: 550px;
     background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
     overflow: hidden;
+    border-radius: 3px;
 
 }
 .cardImg{
@@ -15,9 +15,9 @@
 .cardText{
     position: relative;
     letter-spacing: 1px;
-    z-index: 1;
     color: white;
     margin: -45% 0 0 5%;
+  
 
     .Vtype{
         font-size: 16px;
@@ -26,7 +26,7 @@
         opacity: 0;
     }
     .title{
-        font-size: 35px;
+        font-size: 38px;
         font-weight: 600;
     }
 

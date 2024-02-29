@@ -4,6 +4,7 @@
         /* text-align: center; */
         height: 70vh;
         background-image: url('../../../img/bg-2.svg');
+        box-shadow: 100px 29px 120px 0px rgba(0,0,0,0.75);
         background-repeat: no-repeat;
         background-size: cover;
         /* opacity: 0.3; */
@@ -35,3 +36,16 @@
         font-size: 1.2rem;
         font-weight: 700;
     }
+
+.Dis{
+    display: flex;
+    gap: 59px;
+}
+
+.DisTwo{
+    margin-top: 7%;
+}
+
+.DisThree{
+    margin-top: 14%;
+}
