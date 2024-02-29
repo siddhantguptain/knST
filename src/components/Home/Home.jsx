@@ -35,7 +35,7 @@ const Home = () =>{
                             <div className={style.title}  data-aos="fade-right" >
                                 <h1>YOUR SUCCESSFUL, OUR REPUTATION</h1>
                               </div>
-                              <div data-aos="zoom-in-down"><BrandQue /></div>
+                              <div className={style.brandContainer} data-aos="zoom-in-down"><BrandQue /></div>
                    </div>
                    <HomeTestimonial />
                    <HomeBlogs />

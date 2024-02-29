@@ -15,29 +15,18 @@ const BRAND_QUE = () =>{
         <>
             <div className={style.container}>
                 <div className={style.brandList}>
-                    <img src={A} alt="" height={100} weight={70} />
-                    <img src={B} alt="" height={100} weight={70} />
-                    <img src={C} alt="" height={100} weight={70} />
-                    <img src={D} alt="" height={100} weight={70} />
-                    <img src={E} alt="" height={100} weight={70} />
-                    <img src={F} alt="" height={100} weight={70} />
-                    <img src={G} alt="" height={100} weight={70} />
-                    <img src={H} alt="" height={100} weight={70} />
-                    <img src={I} alt="" height={100} weight={70} />
-                    <img src={J} alt="" height={100} weight={70} />
+                    <img src={A} alt="" height={130} weight={90} />
+                    <img src={B} alt="" height={130} weight={90} />
+                    <img src={C} alt="" height={130} weight={90} />
+                    <br/>
+                    <img src={E} alt="" height={130} weight={90} />
+                    <img src={F} alt="" height={130} weight={90} />
+                    <img src={G} alt="" height={130} weight={90} /><br/>
+                    <img src={H} alt="" height={130} weight={90} />
+                    <img src={I} alt="" height={130} weight={90} />
+                    <img src={J} alt="" height={130} weight={90} />
                 </div>
-                <div className={style.brandList}>
-                    <img src={A} alt="" height={100} weight={70} />
-                    <img src={B} alt="" height={100} weight={70} />
-                    <img src={C} alt="" height={100} weight={70} />
-                    <img src={D} alt="" height={100} weight={70} />
-                    <img src={E} alt="" height={100} weight={70} />
-                    <img src={F} alt="" height={100} weight={70} />
-                    <img src={G} alt="" height={100} weight={70} />
-                    <img src={H} alt="" height={100} weight={70} />
-                    <img src={I} alt="" height={100} weight={70} />
-                    <img src={J} alt="" height={100} weight={70} />
-                </div>
+           
             </div>
 
         </>
