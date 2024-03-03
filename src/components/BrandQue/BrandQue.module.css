@@ -1,11 +1,13 @@
 .container{
     padding: 3rem 0 3rem 10rem;
     max-width: 100%;
+    margin-left: 4rem;
+    
     /* overflow: hidden; */
-    background-color: var(--textColor);
+    /* background-color: #ddd; */
     white-space: nowrap;
-    background-color: transparent;
-    /* backdrop-filter: blur(10px); */
+    /* background-color: transparent; */
+    backdrop-filter: blur(2px);
 }
 
 
@@ -14,8 +16,10 @@
     animation-play-state: paused;
 } */
  .brandList img{
-    margin: 0.5rem 1.2rem;
-    aspect-ratio: 3/1;
+    margin: 0 0.1rem;
+    padding: 0.5rem 1rem ;
+    aspect-ratio: 2/1;
+    border: 0.5px solid rgb(38, 38, 38);
     /* margin: 0 rem; */
     object-fit: contain;
     justify-content: center;
