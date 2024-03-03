@@ -1,5 +1,5 @@
 .container{
-    margin-top: 20vh;
+    margin-top: 30vh;
     min-height: 90vh;
     padding: 1rem 3rem;
 }
@@ -18,18 +18,12 @@
     min-height: 70vh;
     margin: 2rem 1rem;
     padding: 2rem;
-    display: flex;
+    /* display: flex; */
 }
 .space{
     margin-top: 7px;
 }
-.testimonialMain{
-    flex: 45;
-}
-.subSubContainer{
-    padding: 0px 0 4px 14px;
-    flex: 55;
-}
+
 .testimonial{
     padding: 3px;
 }

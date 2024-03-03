@@ -6,7 +6,7 @@ const HomeTestimonialCard = (props) =>{
         <>  
             <div className={style.container}>
                 <div className={style.text}>
-                    {props.text}          
+                    <p>{props.text}</p>          
 
                 </div>
                 <div className={style.line}></div>
