@@ -12,3 +12,7 @@
     font-size: 1.4rem;
     font-weight: 700;
 }
+.subContainer{
+    display: flex;
+    gap: 2rem;
+}
