@@ -6,11 +6,11 @@ import 'aos/dist/aos.css';
 
 const ServicesCard = (props ) =>{
     useEffect(() =>{
-        AOS.init({duration:500});
+        AOS.init({duration:1000});
     },[]);
     return(
         <>  
-            <div className={style.container} data-aos="fade-down-right">
+            <div className={style.container} data-aos="fade-down">
                 <div className={style.serviceIcon}>
                 {/* <FaRegLightbulb size={90} /> */}
                 {props.icon}

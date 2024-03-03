@@ -24,37 +24,37 @@ const HomeService =() =>{
             <div className={style.container}>
                  <h3 className={style.title} data-aos="zoom-in-up">LET’S CHECK OUR SERVICES</h3>
                 <div className={style.serviceCard}>
-                    <ServiceCard className={style.Card}
+                    <ServiceCard  className={style.Card}
                          icon={<img src={BrandIMG} alt="BRAND DEVELOPMENT" width={150} />}     
                          ServiceTitle="BRAND DEVELOPMENT
                          " 
                          ServicePara="Trust us for crafting resonant brand identities through research, creative storytelling, and authentic narratives, setting you apart in India."
                     />
-                    <ServiceCard className={style.Card}
+                    <ServiceCard  className={style.Card}
                          icon={<img src={AdvIMG} alt="ADVERTISEMENT" width={150} />}   
                          ServiceTitle="ADVERTISEMENT
                          " 
                          ServicePara="Crafting captivating ads that resonate with Indian market dynamics, our media production ignites action and delivers results, cutting through clutter."
                     />
-                    <ServiceCard className={style.Card}
+                    <ServiceCard  className={style.Card}
                          icon={<img src={CorVIMG} alt="CORPORATE VIDEOS" width={150} />}  
                          ServiceTitle="CORPORATE VIDEOS
                          " 
                          ServicePara="Mastering corporate video production, we convey brand ethos through captivating visual narratives—leaving lasting impacts."
                     />
     
-                    <ServiceCard className={style.Card}
+                    <ServiceCard  className={style.Card}
                          icon={<img src={EComIMG} alt="E-COMMERCE" width={150} />} 
                          ServiceTitle="E-COMMERCE
                          " 
                          ServicePara="Expertly crafting e-commerce shoots, breathing life into products, understanding Indian market aesthetics."
                     />
-                    <ServiceCard className={style.Card}
+                    <ServiceCard  className={style.Card}
                          icon={<img src={EventIMG} alt="EVENTS" width={150} />} 
                          ServiceTitle="EVENTS
                          " 
                          ServicePara="Excelling in immortalizing emotions, we deliver event coverage that truly sets us apart from competitors."
-                    /><ServiceCard className={style.Card}
+                    /><ServiceCard  className={style.Card}
                          icon={<img src={ExpVIMG} alt="EXPLAINER VIDEO" width={150} />} 
                     ServiceTitle="EXPLAINER VIDEO
                     " 
