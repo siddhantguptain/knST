@@ -14,15 +14,11 @@ const ABOUT = () =>{
         <>
         <div className={style.mainContainer} >
             <div className={style.subContaierOne}>
-                <div className={style.title}  data-aos="zoom-in-up"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                <div className={style.title} >
                     <h1>ELEVATING YOUR VISION WITH <br /> <span className={style.titleHead}>PROFICIENT VIDEO PRODUCTION</span></h1>
                     
                 </div>
-                <div className={style.para}  data-aos="zoom-in"
-     data-aos-offset="30"
-     data-aos-easing="ease-in-sine">
+                <div className={style.para} >
                 Searching for a partner to make your online presence remarkable? <br />Look no further. Our team can elevate your business to new heights.
                 </div>
                 <div className={style.callForAction}></div>

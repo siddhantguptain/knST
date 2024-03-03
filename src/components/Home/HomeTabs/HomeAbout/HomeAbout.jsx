@@ -4,7 +4,7 @@ const HomeAbout =() =>{
     return(
         <>  
             <div className={style.container}>
-                About us
+                -
             </div>
         </>
     );

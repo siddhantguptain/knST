@@ -1,7 +1,11 @@
 .container{
     min-height: 100vh;
-    margin: -150px 0 0 -6vw; 
+      /* max-height: 100vh; */
+    margin: -150px -5vw 0 -5vw; 
     border: 2px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+   
    
 }   
 .overlay{
@@ -9,37 +13,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .3);
-}
-video{
-    object-fit: cover;
-    height: 95vh;
-    width: 107%;
-}
-.content{
-    position: absolute ;
-    top: 50%;
-    margin-left: 7rem;
-    font-weight: 700;
-    color: var(--textColor);
-    text-shadow: var(--bgColor) 14px 0 10px;
-}
-.subTitle{
-    margin-top: -60px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    opacity: 0.7;
-    
-}
-.title{
-    margin: -42px 0 ;
-    font-size: 3rem;
+    height: 110%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-
-  .para{
-      margin: 10px 30px;
-      opacity: 0.7;
-      font-size: var(--paraText);
-  }
+.slider{
+    margin: -29vh 0 0 40vw;
+    display: flex;
+    gap: 2.1rem;
+}
