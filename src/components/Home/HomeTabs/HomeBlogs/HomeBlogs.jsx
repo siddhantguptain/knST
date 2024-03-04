@@ -16,13 +16,13 @@ const HomeBlogs =() =>{
     return(
         <>  
             <div className={style.container}>
-                <div className={style.subTitle}>
+                <div className={style.subTitle} data-aos="fade-up">
                     <h5>⦿ LATEST NEWS</h5>
                 </div>
-                <div className={style.title} >
+                <div className={style.title} data-aos="fade-up" >
                     <h1>LATEST AND GREATEST POST</h1>
                 </div>
-            <div className={style.subContainer}>
+            <div className={style.subContainer} data-aos="fade-down">
                     <HomeBlogsCard 
                         src={   <img src={BL1} alt=">Why is marketing important for businesses?" height="300"/>} 
                         tag="July 12, 2023 .. Marketing"
