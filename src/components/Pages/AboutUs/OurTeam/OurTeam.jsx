@@ -18,28 +18,28 @@ const OurTeam =() =>{
                 </div>
                 <div className={style.members}>
                      <div className={style.member}>
-                          <img className={style.cardImg} src={Sparsh} width={400} height={550} />
+                          <img className={style.cardImg} src={Sparsh} alt="knmStudioTeam" width={400} height={550} />
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>Sparsh Agrawal</div>
                                     <div className={style.memberRole}> Founder </div>
                                 </div>
                     </div>
                     <div className={style.member}>
-                          <img className={style.cardImg} src={Shailesh} width={400} height={550} />
+                          <img className={style.cardImg} src={Shailesh} alt="knmStudioTeam" width={400} height={550} />
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>Shailesh Tilekar</div>
                                     <div className={style.memberRole}> Creative Head </div>
                                 </div>
                     </div>
                     <div className={style.member}>
-                          <img className={style.cardImg} src={Sayali} width={400} height={550} />
+                          <img className={style.cardImg} src={Sayali} alt="knmStudioTeam" width={400} height={550} />
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>Sayali RasKar</div>
                                     <div className={style.memberRole}> Chief Editor  </div>
                                 </div>
                     </div>
                     <div className={style.member}>
-                          <img className={style.cardImg} src={Nikhil} width={400} height={550} />
+                          <img className={style.cardImg} src={Nikhil} alt="knmStudioTeam" width={400} height={550} />
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>Nikhil Inamke</div>
                                     <div className={style.memberRole}> Head of Videography </div>
