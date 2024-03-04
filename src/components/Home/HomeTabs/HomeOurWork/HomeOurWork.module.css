@@ -1,0 +1,40 @@
+.container{
+    margin-top: 20vh;
+    min-height: 90vh;
+}
+
+.subTitle{
+    font-size: 1.2rem;
+    margin-bottom: -21px;
+}
+.title{
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.ourWorkSliders{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+.ourWorkSlider{
+    width: 500PX;
+    /* height: 500PX; */
+
+}
+.ourWorkSlider video {
+    width: 500px;
+    height: 300px;
+    border-radius: 0;
+}
+.sliderVideo{
+
+}
+.Wtype{
+    font-weight: 200;
+}
+.Wtitle{
+    margin-top: -20px;
+    font-size: 2rem;
+}
