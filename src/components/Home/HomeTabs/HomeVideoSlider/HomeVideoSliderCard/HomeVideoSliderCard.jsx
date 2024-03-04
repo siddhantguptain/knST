@@ -73,7 +73,7 @@ const HomeVideoSliderCard = (props ) =>{
     ]
     return(
         <>  
-   <Slider {...settings}>
+   <Slider {...settings}  > 
         {VideoData.map((el) =>(
             <div className={style.containerHome} >
             <video src={`${el.src}`} autoPlay muted loop/>

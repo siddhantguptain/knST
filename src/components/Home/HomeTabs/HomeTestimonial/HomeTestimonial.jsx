@@ -13,7 +13,7 @@ import HomeTestimonialCard from "./HomeTestimonialCard/HomeTestimonialCard";
 const HomeTestimonial =() =>{
 
     useEffect(() =>{
-        AOS.init({duration:2000});
+        AOS.init({duration:1000});
     },[]);
 
 

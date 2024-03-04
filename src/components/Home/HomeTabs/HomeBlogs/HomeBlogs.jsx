@@ -11,18 +11,18 @@ import BL3 from "../../../../img/BlogImg/BLOG 3 Influencer.png"
 import HomeBlogsCard from './HomeBlogsCard/HomeBlogsCard';
 const HomeBlogs =() =>{
     useEffect(() =>{
-        AOS.init({duration:1000});
+        AOS.init({duration:700});
     },[]);
     return(
         <>  
-            <div className={style.container} data-aos="fade-up">
+            <div className={style.container}>
                 <div className={style.subTitle}>
                     <h5>⦿ LATEST NEWS</h5>
                 </div>
-                <div className={style.title} data-aos="fade-up">
+                <div className={style.title} >
                     <h1>LATEST AND GREATEST POST</h1>
                 </div>
-            <div className={style.subContainer} data-aos="fade-up">
+            <div className={style.subContainer}>
                     <HomeBlogsCard 
                         src={   <img src={BL1} alt=">Why is marketing important for businesses?" height="300"/>} 
                         tag="July 12, 2023 .. Marketing"

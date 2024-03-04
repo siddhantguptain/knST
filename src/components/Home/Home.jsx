@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import HomeVideoSlider from "./HomeTabs/HomeVideoSlider/HomeVideoSlider";
 import HomeAbout from "./HomeTabs/HomeAbout/HomeAbout";
 import HomeService from "./HomeTabs/HomeService/HomeService";
+import HomeVision from "./HomeTabs/HomeVision/HomeVision";
 import HomeTestimonial from "./HomeTabs/HomeTestimonial/HomeTestimonial";
 import HomeBlogs from "./HomeTabs/HomeBlogs/HomeBlogs";
 
@@ -27,6 +28,7 @@ const Home = () =>{
 
                    <HomeAbout />
                    <HomeService />
+                   <HomeVision />
                    {/* Testimonial */}
                    <div className={style.queDiv}>
                              <div className={style.subTitle} data-aos="fade-right">
