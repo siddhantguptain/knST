@@ -57,14 +57,14 @@ import SHA from '../../../img/OurWorkThumnail/SHA.png';
 
 const OurWork = () =>{
     useEffect(() =>{
-        AOS.init({duration:700});
+        AOS.init({duration:500});
     },[]);
     return(
         <>
           <div className={style.mainContainer}>
             <div className={style.subContaierOne}>
                 <div className={style.title} 
-                data-aos="fade-right"
+                data-aos="fade-up"
                 >
                     <h1>OUR WORK<br /> 
                     <span className={style.titleHead}>
@@ -77,9 +77,9 @@ const OurWork = () =>{
             {/* Second Container */}
            
              <div className={style.subContaierSecond}>
-                <div className={style.subTitle}>SOME OF OUR BEST WORKS
+                <div className={style.subTitle} data-aos="fade-down" >SOME OF OUR BEST WORKS
                 </div>   
-                <div className={style.subHead}>ADVERTISEMENT || EVENTS || CORPORATE VIDEOS || INFORMATIVE VIDEOS || E-COMMERCE
+                <div className={style.subHead} data-aos="fade-down" >ADVERTISEMENT || EVENTS || CORPORATE VIDEOS || INFORMATIVE VIDEOS || E-COMMERCE
                 </div>   
 
                 <div className={style.Dis}>

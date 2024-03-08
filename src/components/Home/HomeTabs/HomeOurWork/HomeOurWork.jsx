@@ -12,11 +12,15 @@ const HomeOurWork =() =>{
     return(
         <>  
             <div className={style.container}>
+              <div className={style.sub}>
+              <h2>⦿</h2>
             <div className={style.subTitle}>
-                    <h5>⦿ OUR WORK</h5>
+                    <div> OUR WORK</div>
                 </div>
+                </div>  
+                <h3 className={style.divTitle}>OUR LATEST</h3>
                 <div className={style.title}>
-                    <h1>OUR LATEST AWESOME WORK</h1>
+                <h1> AWESOME WORK</h1>
                 </div>
                  <div className={style.ourWorkSliders}>
                         <div className={style.ourWorkSlider}>

@@ -13,7 +13,7 @@
   /* Font Size */
   --titleHead:4rem;
   --titleText:0.9rem;
-  --paraText: 1.2rem;
+  --paraText: 1rem;
 }
 
 body {
@@ -21,11 +21,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    font-size: 90%;
   -webkit-font-smoothing: antialiased;
   font-family: "Poppins", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   background: var(--bgColor);
   color: var(--textColor);
+
 }
 
 /* code {

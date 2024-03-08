@@ -16,11 +16,12 @@
     font-size: var(--titleText);
     }
     .titleHead{
-        font-size: var(--titleHead)
+        font-size: 3rem
     }
 
 
     .subContaierSecond{
+        margin-top: -70px;
         position: relative;
         min-height: 90vh;
         padding: 7rem;

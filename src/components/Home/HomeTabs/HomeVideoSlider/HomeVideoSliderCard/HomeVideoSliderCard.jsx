@@ -79,7 +79,7 @@ const HomeVideoSliderCard = (props ) =>{
             <video src={`${el.src}`} autoPlay muted loop/>
                <div className={style.content}  data-aos="fade-up" >
                <div className={style.title}>
-                        <h1>{el.title}</h1>
+                        <div>{el.title}</div>
                     </div>
                     <div className={style.subTitle}>{el.subTitle}</div>
                     <div className={style.para}>{el.discription}</div>

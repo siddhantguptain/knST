@@ -4,20 +4,28 @@
     min-height: 90vh;
     background-image: url('../../../img/bg-2.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     /* opacity: 0.3; */
     background-color: rgba(0,0,0,0.5);
 }
 
 .title{
   color: var(--titleColor);
-  font-size: var(--titleText);
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 2px;
+  letter-spacing: 2px;
 }
 .titleHead{
-    font-size: var(--titleHead);
+    font-size: 3rem;
+    margin-top: -15px;
+    position: absolute;
+    font-weight: 700;
+    letter-spacing: 2px;
+
 }
 .para{
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: var(--paraText);
 }
 /* Second Coantainer */

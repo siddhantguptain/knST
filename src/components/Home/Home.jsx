@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import HomeVideoSlider from "./HomeTabs/HomeVideoSlider/HomeVideoSlider";
 import HomeAbout from "./HomeTabs/HomeAbout/HomeAbout";
 import HomeService from "./HomeTabs/HomeService/HomeService";
+import HomeOurWork from "./HomeTabs/HomeOurWork/HomeOurWork";
 import HomeVision from "./HomeTabs/HomeVision/HomeVision";
 import HomeTestimonial from "./HomeTabs/HomeTestimonial/HomeTestimonial";
 import HomeBlogs from "./HomeTabs/HomeBlogs/HomeBlogs";
@@ -15,7 +16,7 @@ import BrandQue from "../BrandQue/BrandQue";
 
 const Home = () =>{
          useEffect(() =>{
-        AOS.init({duration:2000});
+        AOS.init({duration:1000});
     },[]);
     return(
         <>
@@ -28,6 +29,7 @@ const Home = () =>{
 
                    <HomeAbout />
                    <HomeService />
+                   <HomeOurWork />
                    <HomeVision />
                    {/* Testimonial */}
                    <div className={style.queDiv}>
