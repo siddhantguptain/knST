@@ -6,7 +6,8 @@ const ContactUs = () =>{
             <div className={style.container}>
             <div className={style.subContaierOne} >
                 <div className={style.title} data-aos="fade-down">
-                    <h1>OPEN YOUR EYES, SEE THE WORLD IN MOTION,<br />EVERYTHING AROUND YOU IS CHANGING.</h1>
+                <div className={style.overlay}></div>
+                    <div>OPEN YOUR EYES, SEE THE WORLD IN MOTION,<br /> <span className={style.titleHead} >EVERYTHING AROUND YOU IS CHANGING.</span> </div>
                     
                 </div>
                 <div className={style.para}data-aos="fade-down" >

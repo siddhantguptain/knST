@@ -9,12 +9,32 @@
     background-color: rgba(0,0,0,0.5);
 }
 
-.title{
-  color: var(--titleColor);
-  font-size: 1.5rem;
+.overlay{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
+.title{
+  position: absolute;
+color: var(--titleColor);
+position: absolute;
+font-size: 3rem;
+font-weight: 400;
+margin-top: 2px;
+letter-spacing: 2px;
+}
+.titleHead{
+  font-size: 3rem;
+  margin-top: -15px;
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 1200px;
+}
 .para{
-    margin-top: 30px;
-    font-size: var(--paraText);
+  margin-top: 140px;
+  font-size: var(--paraText);
 }

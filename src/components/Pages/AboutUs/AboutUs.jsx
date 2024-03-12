@@ -13,7 +13,8 @@ const ABOUT = () =>{
     return(
         <>
         <div className={style.mainContainer} >
-            <div className={style.subContaierOne}>
+            <div className={style.subContaierOne}>  
+            <div className={style.overlay}></div>  
                 <div className={style.title} data-aos="fade-down" >
                     <div>ELEVATING YOUR VISION WITH <br /> <span className={style.titleHead}>PROFICIENT VIDEO PRODUCTION</span></div>
                     
