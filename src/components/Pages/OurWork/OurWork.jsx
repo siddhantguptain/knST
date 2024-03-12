@@ -63,13 +63,14 @@ const OurWork = () =>{
         <>
           <div className={style.mainContainer}>
             <div className={style.subContaierOne}>
+                <div className={style.overlay}></div>
                 <div className={style.title} 
                 data-aos="fade-up"
                 >
-                    <h1>OUR WORK<br /> 
+                    <div>OUR WORK<br /> 
                     <span className={style.titleHead}>
                         EXPLORE → VISUALISE → CREATE
-                    </span></h1>
+                    </span></div>
                     
                 </div>
                      <div className={style.callForAction}></div>
