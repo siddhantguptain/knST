@@ -6,7 +6,7 @@ const Services = () =>{
             <div className={style.container}>
             <div className={style.subContaierOne}>
                 <div className={style.title} data-aos="fade-down" >
-                    <h1>ELEVATING YOUR VISION WITH <br /> <span className={style.titleHead}>PROFICIENT VIDEO PRODUCTION</span></h1>
+                    <div>ELEVATING YOUR VISION WITH <br /> <span className={style.titleHead}>PROFICIENT VIDEO PRODUCTION</span></div>
                     
                 </div>
                 <div className={style.para}data-aos="fade-down" >
@@ -18,8 +18,6 @@ const Services = () =>{
                 <div className={style.box}>
                   <ServiceBOX />
                 </div>
-       
-
             </div>
 
             </div>

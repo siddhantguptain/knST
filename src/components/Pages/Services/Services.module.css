@@ -1,4 +1,5 @@
 .subContaierOne{
+    margin-top: -150px;
     padding: 36vh 0 0 7vw ;
     min-height:90vh;
     background-image: url('../../../img/bg-2.svg');
@@ -9,16 +10,24 @@
 }
 
 .title{
-  color: var(--titleColor);
-  font-size: var(--titleText);
-}
-.titleHead{
-    font-size: var(--titleHead);
-}
-.para{
-    margin-top: 30px;
-    font-size: var(--paraText);
-}
+    color: var(--titleColor);
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 2px;
+    letter-spacing: 2px;
+  }
+  .titleHead{
+      font-size: 3rem;
+      margin-top: -15px;
+      position: absolute;
+      font-weight: 700;
+      letter-spacing: 2px;
+  
+  }
+  .para{
+      margin-top: 60px;
+      font-size: var(--paraText);
+  }
 .checkS{
     margin-top: 30vh;
     padding: 2rem 7rem;
