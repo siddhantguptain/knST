@@ -19,6 +19,7 @@
 .title{
     margin-top: -1rem;
     letter-spacing: 2px;
+
     font-size: .4rem;
     font-weight: 200;
 }
@@ -30,7 +31,7 @@
     font-weight: 400;
 
 }
-.title h1{
+.title{
     margin-top: -55px;
 }
 .LandingContainer{

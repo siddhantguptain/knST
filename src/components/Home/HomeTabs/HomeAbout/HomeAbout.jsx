@@ -1,19 +1,22 @@
 import style from './HomeAbout.module.css';
-
+import { FaCircle } from "react-icons/fa";
 const HomeAbout =() =>{
     return(
         <>  
             <div className={style.container}>
               <div className={style.subContainer} data-aos="fade-right">
-              <div className={style.aboutSubTitle}  >
-                    <h5>⦿ ABOUT US</h5>
+              <div className={style.sub}>
+                 <h3><FaCircle /></h3>
+                 <div className={style.subTitle}>
+                    <div>ABOUT US</div>
                 </div>
+               </div>  
                 <div className={style.aboutTitle} data-aos="fade-up">
                     WHO WE ARE
                 </div>
                 {/* Main */}
                 <div className={style.parameters}>
-
+                     <div className={style.subParameters}></div>
                 </div>
 
               </div>
@@ -34,7 +37,7 @@ const HomeAbout =() =>{
                         38
                     </div>
                     <div className={style.subContainerExpText}>MONTHS OF <br />
-DIGITAL EXPERIENCE</div>
+                            DIGITAL EXPERIENCE</div>
                 </div>
               </div>              
             </div>
