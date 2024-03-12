@@ -10,6 +10,8 @@ import 'aos/dist/aos.css';
 
 import HomeTestimonialCard from "./HomeTestimonialCard/HomeTestimonialCard";
 
+import { FaCircle } from "react-icons/fa";
+
 const HomeTestimonial =() =>{
 
     useEffect(() =>{
@@ -50,11 +52,16 @@ const HomeTestimonial =() =>{
     return(
         <>  
             <div className={style.container} data-aos="fade-right">
-                <div className={style.subTitle}>
-                    <h5>⦿ TESTIMONIALS</h5>
+
+            <div className={style.sub}>
+              <h3><FaCircle /></h3>
+            <div className={style.subTitle}>
+                    <div> TESTIMONIALS</div>
                 </div>
-                <div className={style.title} data-aos="fade-right">
-                    <h1>WHAT PEOPLE ARE SAYING</h1>
+                </div>  
+                <h3 className={style.divTitle}>WHAT PEOPLE</h3>
+                <div className={style.title}>
+                <h1> ARE SAYING</h1>
                 </div>
                 
                 <div className={style.subContainer} data-aos="zoom-in-up">
@@ -68,24 +75,7 @@ const HomeTestimonial =() =>{
                 ))}
                  </Slider>
 
-                       {/* <HomeTestimonialCard 
-                            text="I have been working with the digital marketing experts at KNM Studio for over a year now, and I am extremely impressed with the results. Their strategies have significantly boosted our online presence, and our sales have skyrocketed. The team is highly knowledgeable, responsive, and a pleasure to work with. I highly recommend KNM Studio to any business looking to elevate their online marketing efforts."
-                            userName="Prajakta Gupta"
-                            userRole="Founder Cologne Spa"
-                       />
-              
-              
-                    <HomeTestimonialCard 
-                            text="KNM Studio's video production work is outstanding! Their creative team consistently delivers impactful videos that elevate our marketing efforts. Highly commendable!"
-                            userName="Siddharth Gupta"
-                            userRole="Marketing Head -  Spardha Learning"
-                       />
-             
-                     <HomeTestimonialCard 
-                            text="   The content created by KNM Studio is exceptional! Their team consistently delivers captivating and high-quality content that engages our audience effectively. Highly recommended!"
-                            userName="Umar Farukh"
-                            userRole="Terminak Head Vivo"
-                       /> */}
+
                 </div> 
                
             </div>

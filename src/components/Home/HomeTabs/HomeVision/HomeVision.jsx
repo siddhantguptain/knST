@@ -1,14 +1,18 @@
 import style from './HomeVision.module.css';
-
+import { FaCircle } from "react-icons/fa";
 const HomeVision =() =>{
     return(
         <>  
             <div className={style.container}>
+            <div className={style.sub}>
+              <h3><FaCircle /></h3>
             <div className={style.subTitle}>
-                    <h5>⦿ OUR PROCESS</h5>
+                    <div> OUR PROCESS</div>
                 </div>
+                </div>  
+                <h3 className={style.divTitle}>HOW OUR </h3>
                 <div className={style.title}>
-                    <h1>HOW OUR WORK FLOWS</h1>
+                <h1> WORK FLOWS</h1>
                 </div>
 
                 <div className={style.subContainer}>

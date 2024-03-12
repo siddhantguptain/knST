@@ -8,12 +8,14 @@ import ACT from "../../../../video/BestWork/ACTIMAX - CORE POLO - MASTER.mp4"
 import MDC from "../../../../video/BestWork/Mens_DD_Cream.mp4"
 import V25 from "../../../../video/BestWork/Varsha V25 Film.mp4"
 
+import { FaCircle } from "react-icons/fa";
+
 const HomeOurWork =() =>{
     return(
         <>  
             <div className={style.container}>
               <div className={style.sub}>
-              <h2>⦿</h2>
+              <h3><FaCircle /></h3>
             <div className={style.subTitle}>
                     <div> OUR WORK</div>
                 </div>

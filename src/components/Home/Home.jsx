@@ -12,6 +12,8 @@ import HomeVision from "./HomeTabs/HomeVision/HomeVision";
 import HomeTestimonial from "./HomeTabs/HomeTestimonial/HomeTestimonial";
 import HomeBlogs from "./HomeTabs/HomeBlogs/HomeBlogs";
 
+
+import { FaCircle } from "react-icons/fa";
 import BrandQue from "../BrandQue/BrandQue";
 
 const Home = () =>{
@@ -33,12 +35,17 @@ const Home = () =>{
                    <HomeVision />
                    {/* Testimonial */}
                    <div className={style.queDiv}>
-                             <div className={style.subTitle} data-aos="fade-right">
-                                 <h5>⦿ OUR CLIENTS</h5>
-                            </div>
-                            <div className={style.title}  data-aos="fade-right" >
-                                <h1>YOUR SUCCESSFUL, OUR REPUTATION</h1>
-                              </div>
+
+                   <div className={style.sub}>
+                    <h3><FaCircle /></h3>
+                            <div className={style.subTitle}>
+                                    <div> OUR CLIENTS</div>
+                                </div>
+                                </div>  
+                                <h3 className={style.divTitle}>YOUR SUCCESSFUL,</h3>
+                                <div className={style.title}>
+                                <h1> OUR REPUTATION</h1>
+                                </div>
                               <div className={style.brandContainer} data-aos="zoom-in-down"><BrandQue /></div>
                    </div>
                    <HomeTestimonial />

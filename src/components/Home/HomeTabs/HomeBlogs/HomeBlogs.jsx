@@ -5,18 +5,27 @@ import BL1 from "../../../../img/BlogImg/BLOG 1 Digital Marketing Illustration.p
 import BL2 from "../../../../img/BlogImg/Blog 2 VNU_M715_4.png"
 import BL3 from "../../../../img/BlogImg/BLOG 3 Influencer.png"
 
+import { FaCircle } from "react-icons/fa";
 
 import HomeBlogsCard from './HomeBlogsCard/HomeBlogsCard';
 const HomeBlogs =() =>{
     return(
         <>  
             <div className={style.container}>
-                <div className={style.subTitle}>
-                    <h5>⦿ LATEST NEWS</h5>
-                </div>
-                <div className={style.title}  >
-                    <h1>LATEST AND GREATEST POST</h1>
-                </div>
+
+            <div className={style.sub}>
+                    <h3><FaCircle /></h3>
+                            <div className={style.subTitle}>
+                                    <div> LATEST NEWS</div>
+                                </div>
+                                </div>  
+                                <div className={style.tittleContainer}>
+                                <h3 className={style.divTitle}>LATEST AND</h3>
+                                <div className={style.title}>
+                                <h1>  GREATEST POST</h1>
+                                </div>
+                                </div>
+
             <div className={style.subContainer}>
                     <HomeBlogsCard 
                         src={   <img src={BL1} alt=">Why is marketing important for businesses?" height="300"/>} 
