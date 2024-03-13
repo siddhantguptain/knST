@@ -1,0 +1,24 @@
+.container{
+    margin-top: 30vh;
+    min-height: 90vh;
+}
+
+.title{
+    margin: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 200;
+}
+
+.subContainer{
+    margin-top: 20px;
+    min-height: 70vh;
+}
+.space{
+    margin-top: 7px;
+}
+
+.testimonial{
+    padding: 10px;
+}
