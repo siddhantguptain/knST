@@ -1,8 +1,17 @@
+import {useState} from 'react';
+
 import style from './HomeAbout.module.css';
 import { FaCircle } from "react-icons/fa";
+
+import Countup from 'react-countup';
+import SrcollTrigger from 'react-scroll-trigger';
+
+
 const HomeAbout =() =>{
+    const [counterOn , setCounterOn] =useState(false);
     return(
         <>  
+         <SrcollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
             <div className={style.container}>
               <div className={style.subContainer} data-aos="fade-right">
               <div className={style.sub}>
@@ -34,13 +43,16 @@ const HomeAbout =() =>{
                 <div className={style.subContainerTagRole} >Founder</div>
                 <div className={style.subContainerExp}>
                     <div className={style.subContainerExpNum}>
-                        38
+                    {counterOn &&
+                                <Countup start={0} end={38} duration={2} /> 
+                             }
                     </div>
                     <div className={style.subContainerExpText}>MONTHS OF <br />
                             DIGITAL EXPERIENCE</div>
                 </div>
               </div>              
             </div>
+         </SrcollTrigger>     
         </>
     );
 }
