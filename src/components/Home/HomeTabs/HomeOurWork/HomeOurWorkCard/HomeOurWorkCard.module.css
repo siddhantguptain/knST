@@ -1,0 +1,40 @@
+.ourWorkSliders{
+    display: flex;
+    gap: 20px;
+    /* height: 60vh; */
+    margin: 2rem 1rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+/* 
+ */
+.ourWorkSlider{
+    width: 500PX;
+    /* height: 500PX; */
+}
+.ourWorkSlider video {
+    width: 500px;
+    height: 300px;
+    border-radius: 0;
+}
+.Wtype{
+    font-weight: 200;
+}
+.Wtitle{
+    margin-top: -20px;
+    font-size: 2rem;
+}
+.scroller{
+    margin-top: -10vh;
+    margin-left: 5rem;
+    font-size: 21px      ;
+    display: flex;
+    gap:90%;
+}
+.scrollerLeft{
+    cursor: pointer;
+}
+.scrollerRight{
+    cursor: pointer;
+}
+

@@ -56,7 +56,7 @@ const HomeTestimonial =() =>{
             <div className={style.sub}>
               <h3><FaCircle /></h3>
             <div className={style.subTitle}>
-                    <div> TESTIMONIALS</div>
+                    <div> TESTIMONIALS</div>    
                 </div>
                 </div>  
                 <h3 className={style.divTitle}>WHAT PEOPLE</h3>
@@ -68,6 +68,7 @@ const HomeTestimonial =() =>{
                 <Slider {...settings}>
                 {TestimonialData.map((el) =>(
                     <HomeTestimonialCard 
+                    key={el.key}
                     text={el.text}
                     userName={el.userName}
                     userRole={el.userRole}

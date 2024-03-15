@@ -28,29 +28,5 @@
 .title h1{
     margin-top: -55px;
 }
-.ourWorkSliders{
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
-    /* overflow: scroll; */
-}
-.ourWorkSlider{
-    width: 500PX;
-    /* height: 500PX; */
 
-}
-.ourWorkSlider video {
-    width: 500px;
-    height: 300px;
-    border-radius: 0;
-}
-.sliderVideo{
 
-}
-.Wtype{
-    font-weight: 200;
-}
-.Wtitle{
-    margin-top: -20px;
-    font-size: 2rem;
-}
