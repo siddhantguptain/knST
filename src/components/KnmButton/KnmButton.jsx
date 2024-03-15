@@ -2,12 +2,12 @@
 import style from './KnmButton.module.css';
 import { FaAngleRight } from "react-icons/fa";
 
-const KnmButton =() =>{
+const KnmButton =(props) =>{
      return(
     <> 
         <div className={style.btnContainer}>
         <div className={style.btnContainerIcon}><FaAngleRight className={style.BtnIcon} />
-        <div className={style.btnContainerText}>EXPLORE MORE</div></div>
+        <div className={style.btnContainerText}>{props.text}</div></div>
         
         </div>
     </>
