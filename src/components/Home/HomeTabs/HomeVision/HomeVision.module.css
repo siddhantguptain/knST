@@ -3,6 +3,13 @@
     padding: 2rem;
     min-height: 100vh;
 }
+.textContainer{
+    display: flex;
+
+}
+.textContainerTwo{
+    margin: 70px 0 0 650px;
+}
 .subTitle{
     font-size: 0.7rem;
     letter-spacing: 2px;

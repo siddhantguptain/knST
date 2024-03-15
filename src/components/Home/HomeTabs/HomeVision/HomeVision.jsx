@@ -15,6 +15,9 @@ const [counterOn , setCounterOn] =useState(false);
         <>  
        
             <div className={style.container}>
+              <div className={style.textContainer}>
+                  <div className={style.textContainerOne}>  
+
             <div className={style.sub}>
               <h3><FaCircle /></h3>
             <div className={style.subTitle}>
@@ -24,6 +27,13 @@ const [counterOn , setCounterOn] =useState(false);
                 <h3 className={style.divTitle}>HOW OUR </h3>
                 <div className={style.title}>
                 <h1> WORK FLOWS</h1>
+                </div>
+                </div>
+                <div className={style.textContainerTwo}>  
+                <Link to="/services">
+                         <KnmButton text="EXPLORE MORE" />
+                      </Link>
+                </div>
                 </div>
                 <SrcollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
                 <div className={style.subContainer}>
