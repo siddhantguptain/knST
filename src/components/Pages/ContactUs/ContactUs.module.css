@@ -5,16 +5,14 @@
     background-image: url('../../../img/bg-2.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.3; */
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,5);
 }
-
 .overlay{
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 110%;
-  background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .title{
@@ -38,8 +36,38 @@ letter-spacing: 2px;
   margin-top: 140px;
   font-size: var(--paraText);
 }
+
+.contactForm{
+  margin: -20vh 0 0 0;
+  padding: 2rem 3rem 0 0   ;
+  min-height: 80vh;
+  display: flex;
+}
+.contactFormOne{
+  width: 75%;
+  background-color: var(--bgColor);
+}
+.contactFormSecond{
+  margin-top: 5%;
+  margin-left: -5%;
+  width: 25%;
+  background-color: var(--textColor);
+  color: var(--bgColor);
+}
+.contactInfo{
+  padding: 50% 0 50% 10%;
+  
+}
+.contactHead{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 2px;
+  letter-spacing: 1.5px;
+}
+.contactSubHead{
+  margin: 0 0 0 47px;
+  opacity: 0.9;
+}
 .contactMap{
-  margin-top: 20vh;
-  margin-left: -7rem;
   opacity: 0.7;
 }
