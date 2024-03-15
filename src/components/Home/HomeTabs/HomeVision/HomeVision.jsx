@@ -2,8 +2,12 @@ import {useState} from 'react';
 import style from './HomeVision.module.css';
 import { FaCircle } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 import Countup from 'react-countup';
 import SrcollTrigger from 'react-scroll-trigger';
+
+import KnmButton from '../../../KnmButton/KnmButton';
 
 const HomeVision =() =>{
 const [counterOn , setCounterOn] =useState(false);
@@ -54,9 +58,15 @@ const [counterOn , setCounterOn] =useState(false);
                 </div>
                 </SrcollTrigger>   
                 <div className={style.visionContainer}>
-                    <h2 className={style.visionContainerHead}>If you think visual representation is not important for your business <br /> Let us change this mindset of yours.</h2>
-                    <p className={style.visionContainerPara}>"Dikhega nahi toh Bikega nahi" Visuals play a vital role in today's digital age, as they capture attention, convey messages effectively, and foster stronger brand connections. Did you know that content with relevant images gets 94% more views than text-only content? Incorporating visually engaging content in marketing materials, website design, and social media campaigns can significantly impact audience engagement and overall business growth. By demonstrating the power of visuals through success stories, compelling comparisons, and statistical evidence, we aim to transform your perspective. Embracing the significance of visual representation will enable your business to stand out, leave a lasting impression, and drive success in the competitive market landscape."<br/><br/>
-Choose us as your media agency and let us help you elevate your brand to</p>
+                    <div className={style.visionContainerHead}>If you think visual representation is not important for <br /> your business <br /> Let us change this mindset of yours.</div>
+                    <p className={style.visionContainerPara}><b>"Dikhega nahi toh Bikega nahi"</b> Visuals play a vital role in today's digital age, as they capture attention, convey messages effectively, and foster stronger brand connections. Did you know that content with relevant images gets 94% more views than text-only content? Incorporating visually engaging content in marketing materials, website design, and social media campaigns can significantly impact audience engagement and overall business growth. By demonstrating the power of visuals through success stories, compelling comparisons, and statistical evidence, we aim to transform your perspective. Embracing the significance of visual representation will enable your business to stand out, leave a lasting impression, and drive success in the competitive market landscape."<br/><br/>
+                    Choose us as your media agency and let us help you elevate your brand to</p>
+                    <div className="style btnLink">
+                      <Link to="/contact-us">
+                         <KnmButton text="CONTACT US" />
+                      </Link>
+                    </div>
+
                 </div>
             </div>
        
