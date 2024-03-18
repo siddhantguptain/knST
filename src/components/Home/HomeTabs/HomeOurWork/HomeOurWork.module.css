@@ -1,7 +1,13 @@
 .container{
     margin-top: 20vh;
 }
+.textContainer{
+    display: flex;
 
+}
+.textContainerTwo{
+    margin: 70px 0 0 650px;
+}
 .subTitle{
     font-size: 0.7rem;
     letter-spacing: 2px;
