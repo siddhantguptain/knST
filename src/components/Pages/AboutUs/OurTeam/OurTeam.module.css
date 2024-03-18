@@ -5,13 +5,19 @@
 }
 
 .subTitle{
-    font-size: 1.2rem;
-    margin-bottom: -21px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin: 15px 0 0 10px;
+}
+.sub{
+    display: flex;
 }
 .title{
-    margin-left: 20px;
+    margin-top: -3rem;
+    letter-spacing: 2px;
+    /* margin-left: 20px; */
     font-size: 1.4rem;
-    font-weight: 700;
+    /* font-weight: 400; */
 }
 .members{
     padding: 10px 50px;

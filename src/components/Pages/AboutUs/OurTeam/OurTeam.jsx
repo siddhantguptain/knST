@@ -1,5 +1,7 @@
 import style from './OurTeam.module.css';
 
+import { FaCircle } from "react-icons/fa";
+
 import Sparsh from "../../../../img/OurTeam/SHA02697.jpg";
 import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
 import Sayali  from "../../../../img/OurTeam/SHA02701.jpg";
@@ -10,12 +12,16 @@ const OurTeam =() =>{
     return(
         <>  
             <div className={style.container}>
+            <div className={style.sub}>
+              <h3><FaCircle /></h3>
             <div className={style.subTitle}>
-                    <h5>⦿ OUR TEAM</h5>
+                    <div> Our Teams</div>    
                 </div>
-                <div className={style.title} >
-                    <h1>THE BEST TEAM EVER!</h1>
+                </div> 
+                <div className={style.title}>
+                <h1> THE BEST TEAM EVER!</h1>
                 </div>
+           
                 <div className={style.members}>
                      <div className={style.member}>
                           <img className={style.cardImg} src={Sparsh} alt="knmStudioTeam" width={400} height={550} />
