@@ -15,7 +15,7 @@
 .subContainer{
     padding: 2rem 1rem;
     flex: 1;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 .aboutSubTitle{
 font-size: 1.2rem;
@@ -75,4 +75,34 @@ font-size: 1.2rem;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+/* Home Slider */
+.subParameters{
+    margin-top: 21px;
+}
+.subAboutParameters{
+    display: flex;
+    cursor: pointer;
+    padding: 1rem;
+}
+.aboutParameters{
+    border-bottom: 0.5px solid rgb(38, 38, 38);
+}
+
+.subAboutParametersHeading{
+font-size: 18px;
+margin: 5px 0 0 15px;
+}
+
+.subAboutParametersBtnIcon{
+ margin-left: 380px;
+}
+.subAboutParametersBtnIconAdv{
+    margin-left: 392px;
+}
+.aboutParametersPARA{
+    margin: 5px 100px 20px 50px;
+    letter-spacing: 1px;
+    display: none;
 }
