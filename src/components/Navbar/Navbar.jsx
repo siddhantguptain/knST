@@ -35,10 +35,11 @@ const NAVBAR = () =>{
                     <li className={style.link}><Link to="/blogs">Blogs</Link></li>
                     <li className={style.link}><Link to="/contact-us">Contact Us</Link></li>
                 </ul>
-                <div className={style.actionBtn}>
-                    Start a Project
-                </div>
-
+                <Link to="/contact-us">
+                   <div className={style.actionBtn}>
+                     Start a Project
+                   </div>
+                </Link>
                 <div className={style.toggleNav}>
                       {/* <CloseIcon />  */}
                       <MenuIcon />
