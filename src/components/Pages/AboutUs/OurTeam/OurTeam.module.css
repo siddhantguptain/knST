@@ -35,8 +35,15 @@ gap: 30px;
     margin-left: -60px;
     transition: scale 0.6s;
 }
-.cardImg:hover{
-    scale: 1.2;
+.member:hover{
+
+    .cardImg{
+        scale: 1.2;
+    }
+    .memberRole{
+        margin-top: -60px;
+    }
+
 }
 .memberContent{
     text-align: center;
@@ -44,9 +51,17 @@ gap: 30px;
     padding: 1rem;
     z-index: 1;
     backdrop-filter: blur(30px);
+    overflow: hidden;
 }
 .memberName{
     margin-top: -7px;
     font-size: 1.3rem;
+}
+
+.userSocialMedia{
+    margin-top:40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
