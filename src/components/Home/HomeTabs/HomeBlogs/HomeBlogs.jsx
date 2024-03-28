@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import style from './HomeBlogs.module.css';
 
-import BL1 from "../../../../img/BlogImg/BLOG 1 Digital Marketing Illustration.png"
-import BL2 from "../../../../img/BlogImg/Blog 2 VNU_M715_4.png"
+import BL1 from "../../../../img/BlogImg/Some-of-the-Most-Viral-Advertisements.jpg"
+import BL2 from "../../../../img/BlogImg/The-Importance-of-Visual-Content-Creation-in-Large-Companies-and-Businesses-thumbnail.jpg"
 import BL3 from "../../../../img/BlogImg/BLOG 3 Influencer.png"
 
 import { FaCircle } from "react-icons/fa";
