@@ -59,7 +59,7 @@ const BlogThree = () =>{
                                 them into paying customers. Implementing effective lead generation strategies, such as targeted
                                 marketing campaigns and providing exceptional customer experiences, can significantly impact
                                 your bottom line and help you reach your financial targets.
-<                               /p>
+                               </p>
                              <p className={style.blogContentPara}>Overall, a combination of visibility, credibility, and lead generation efforts is essential for driving
                                 business growth and achieving long-term success. By ensuring that your target customers know
                                 about your existence, establishing a trustworthy reputation, and actively generating leads, you
