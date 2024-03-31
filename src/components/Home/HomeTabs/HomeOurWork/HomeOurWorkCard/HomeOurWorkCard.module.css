@@ -38,3 +38,22 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 480px){
+    .scroller{
+       display: none;
+    }
+    .ourWorkSlider video {
+        width: 350px;
+        height: 300px;
+        border-radius: 0;
+    }
+    .ourWorkSliders{
+        margin: 1rem 0 ;
+         padding: 0rem 2%;
+    }
+    .Wtitle{
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+    
+}    

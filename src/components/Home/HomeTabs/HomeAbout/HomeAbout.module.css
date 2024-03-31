@@ -106,6 +106,8 @@ margin: 5px 0 0 15px;
     letter-spacing: 1px;
     display: none;
 }
+
+
 @media screen and (max-width: 1300px){
     .subContainerExpText{
         margin-top: 50px;
@@ -166,3 +168,44 @@ margin: 5px 0 0 15px;
         margin-left:47vw;
        }
 }
+
+
+/* Phone */
+@media screen and (max-width: 480px){
+    .container{
+        margin: 5vh 1rem;
+    }
+    .subContainer{
+        margin-top: 10vh;
+        padding: 0;
+    }
+  .parameters{
+    margin-left: -1rem;
+  }
+    .subAboutParametersBtnIcon{
+        margin-left:32vw;
+       }
+       .subAboutParametersBtnIconAdv{
+        margin-left:35.5vw;
+       }
+       .subContainerTag{
+        margin-top: 10px;
+        font-size: 1.5rem;
+       }
+       .subContainerTagRole{
+        font-size: 1.2rem;
+       }
+       .subContainerExp{
+        gap: 1px;
+
+    }
+       .subContainerExpNum{
+        font-size: 100px;
+        margin-top: -15px;
+       }
+       .subContainerExpText{
+        font-size: 0.8rem;
+        margin-top: 70px;
+       }
+}
+

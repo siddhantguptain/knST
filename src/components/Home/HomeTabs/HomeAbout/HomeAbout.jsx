@@ -104,7 +104,7 @@ const HomeAbout =() =>{
                 <div className={style.subContainerExp}>
                     <div className={style.subContainerExpNum}>
                     {counterOn &&
-                                <Countup start={0} end={38} duration={2} /> 
+                                <Countup start={0} end={42} duration={2} /> 
                              }
                     </div>
                     <div className={style.subContainerExpText}>MONTHS OF <br />
