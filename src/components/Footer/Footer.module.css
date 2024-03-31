@@ -85,3 +85,33 @@
         padding-left: 12%;
     }
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 0;
+    }
+    .callForAction{
+        font-size: 1.7rem;
+    }
+    .subContainer{
+        padding-left: 0%;
+        flex-direction: column;
+    }
+    .contact{
+        padding-left: 2rem;
+    }
+    .address{
+        padding-left: 2rem;
+        margin-top: 20px;
+    }
+    .footerHeading{
+        font-size: 1.3rem;
+    }
+    .footerHeadingSub{
+        font-size: 1.1rem;
+    }
+    
+    .copyRight{
+        font-size: 0.8rem;
+    }
+}
