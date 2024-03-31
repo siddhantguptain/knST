@@ -13,14 +13,14 @@ import FOOTER from './components/Footer/Footer';
 function App() {
   return (
     <div className="App"> 
-          <NAVBAR />
+           <NAVBAR />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about-us" element={<AboutUs />}  />
+              {/* <Route path="/about-us" element={<AboutUs />}  />
               <Route path="/services" element={<Services />}  />
               <Route path="/our-work" element={<OurWork />}  />
               <Route path="/blogs" element={<Blogs />}  />
-              <Route path="/contact-us" element={<ContactUs />}  />
+              <Route path="/contact-us" element={<ContactUs />}  /> */}
             </Routes>
           <SocialMedia />
           <FOOTER />

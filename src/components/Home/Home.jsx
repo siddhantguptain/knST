@@ -29,12 +29,11 @@ const Home = () =>{
                              <HomeVideoSlider />
                    </div>
 
-                   <HomeAbout />
+                   {/* <HomeAbout />
                    <HomeService />
                    <HomeOurWork />
-                   <HomeVision />
-                   {/* Testimonial */}
-                   <div className={style.queDiv}>
+                   <HomeVision /> */}
+                   {/* <div className={style.queDiv}>
 
                    <div className={style.sub}>
                     <h3><FaCircle /></h3>
@@ -49,7 +48,7 @@ const Home = () =>{
                               <div className={style.brandContainer} data-aos="zoom-in-down"><BrandQue /></div>
                    </div>
                    <HomeTestimonial />
-                   <HomeBlogs />
+                   <HomeBlogs /> */}
                 </div>
             </div>
 

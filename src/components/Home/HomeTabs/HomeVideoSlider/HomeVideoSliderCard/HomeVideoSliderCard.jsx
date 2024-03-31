@@ -19,7 +19,7 @@ const HomeVideoSliderCard = (props ) =>{
     },[]);
 
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -73,6 +73,7 @@ const HomeVideoSliderCard = (props ) =>{
     ]
     return(
         <>  
+         <div className={style.SliderContainer} >
    <Slider {...settings}  > 
         {VideoData.map((el) =>(
             <div className={style.containerHome} >
@@ -86,7 +87,8 @@ const HomeVideoSliderCard = (props ) =>{
                </div>
             </div>
           )) } 
-    </Slider>    
+    </Slider>   
+    </div> 
         </>
     );
 }

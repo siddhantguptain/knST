@@ -1,0 +1,58 @@
+
+.blogHead{
+    min-height: 30vh;
+    padding: 7vh 3vw 4vh 7vw;
+    background-image: url('../../../../img/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blogHeading{
+    font-size:3rem;
+    font-weight: 400;
+    color:white;
+}
+.blogHeadingAdv{
+    font-size:4rem;
+    font-weight: 400;
+    color:white;
+    padding-top: 9vh;
+}
+.blogContent{
+    padding: 3vh 1vw;
+}
+.blogContentContainer{
+    margin: 10vh 7vw;
+}
+.blogContentHead{
+    font-size:1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.blogContentPara{
+    opacity: 0.9;
+    letter-spacing: 0.7px;
+}
+.blogSubContent{
+    padding: 2vh 1vw ;
+}
+.blogSubContentHead{
+    font-size:1.2rem;
+    font-weight:400;
+    color: white;
+    margin: 5vh 0.5vw 1vh 0.5vw;
+}
+.blogSubContentPara{
+    margin:0vh 2vw;
+    opacity: 0.9;
+    letter-spacing: 0.7px;
+}
+
+
+
+.blogContentConclution{
+    margin-top: 5vh;
+    font-size:1.5rem;
+    font-weight: 400;
+    color: white;
+}

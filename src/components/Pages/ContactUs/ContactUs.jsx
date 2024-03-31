@@ -1,8 +1,10 @@
 import style from './ContactUs.module.css';
 
+import ContactForm from './ContactForm/ContactForm';
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+
 const ContactUs = () =>{
     return (
         <>
@@ -20,7 +22,16 @@ const ContactUs = () =>{
                 </div>
                 <div className={style.contactForm}>
                 <div className={style.contactFormOne}> 
-
+                    <div className={style.contactFormOneHead}> 
+                    IF YOU HAVE QUESTIONS PLEASE <br /> <span className={style.contactFormOneHeadSub}> CONTACT US</span>
+                    </div>
+                    <div className={style.contactFormOneSubHead}> 
+                    Fill fields and find approximate your repair
+                    </div>
+                    <div className={style.contactFormOneForm}> 
+                            <ContactForm />
+                    </div>
+                        
                     </div>
                     <div className={style.contactFormSecond}> 
                      <div className={style.contactInfo}>

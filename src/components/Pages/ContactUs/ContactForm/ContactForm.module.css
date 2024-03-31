@@ -1,0 +1,7 @@
+.inputField{
+ padding: 0.8rem 10rem 0.8rem 0.5rem;
+ margin: 1rem;
+ color: white;
+ background-color: var(--bgColor);
+ border: 0.5px solid rgb(67, 65, 65);
+}

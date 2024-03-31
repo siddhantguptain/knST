@@ -44,8 +44,24 @@ letter-spacing: 2px;
   display: flex;
 }
 .contactFormOne{
-  width: 75%;
+  width: 60%;
   background-color: var(--bgColor);
+  padding-left: 12%;
+  padding-top: 15vh;
+}
+
+.contactFormOneHead{
+ font-size: 45px;
+ font-weight: 500;
+}
+.contactFormOneHeadSub{
+  position: absolute;
+  margin-top: -15px;
+}
+.contactFormOneSubHead{
+  margin: 50px 0 10px 0; 
+  font-size: 16px;
+  opacity: 0.7;
 }
 .contactFormSecond{
   margin-top: 5%;

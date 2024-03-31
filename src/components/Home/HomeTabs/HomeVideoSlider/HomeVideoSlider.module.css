@@ -1,5 +1,6 @@
 .container{
     min-height: 100vh;
+   
       /* max-height: 100vh; */
     margin: -150px -5.5vw 0 -5vw; 
     border: 2px solid transparent;
@@ -21,4 +22,21 @@
     margin: -29vh 0 0 40vw;
     display: flex;
     gap: 2.1rem;
+}
+
+@media (max-width: 1286px){
+    .container{
+    max-width: 95vw;
+    }
+}
+@media (max-width: 1236px){
+    .container{
+    max-width: 94.5vw;
+    }
+}
+@media (max-width: 1012px){
+    .container{
+    overflow-x: hidden;
+    max-width: 101vw;
+    }
 }

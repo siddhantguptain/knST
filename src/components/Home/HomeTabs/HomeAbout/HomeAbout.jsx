@@ -15,7 +15,6 @@ import { VscDash } from "react-icons/vsc";
 const HomeAbout =() =>{
     const [counterOn , setCounterOn] =useState(false);
     const [sliderToggle , setSliderToggle] =useState(0);
-    console.log(sliderToggle);
     return(
         <>  
          <SrcollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
