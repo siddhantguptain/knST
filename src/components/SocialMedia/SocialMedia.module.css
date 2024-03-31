@@ -34,7 +34,7 @@
             letter-spacing: 1.4px;   
         }
 
-        @media screen and (max-width: 1012px){
+        @media screen and (max-width: 1124px){
             .container{
                 display: none;
             }
