@@ -106,3 +106,63 @@ margin: 5px 0 0 15px;
     letter-spacing: 1px;
     display: none;
 }
+@media screen and (max-width: 1300px){
+    .subContainerExpText{
+        margin-top: 50px;
+    }
+    .container{
+        margin: 0 -4rem;
+    }
+    .parameters{
+        margin-top: 50px;
+    }
+    .subAboutParametersBtnIcon{
+        margin-left: 330px;
+       }
+       .subAboutParametersBtnIconAdv{
+           margin-left: 342px;
+       }
+}
+@media screen and (max-width: 1124px){
+    .container{
+        flex-direction: column;
+    }
+    .aboutParameters{
+        margin: 0 6vw 0 2vw ;
+    }
+    .subContainerPara{
+        margin: 0 6vw 0 0 ;
+    }
+    .subContainerExp{
+            margin: 6vh 6vw 0 0 ;
+        }
+   
+    .subAboutParametersBtnIcon{
+        margin-left:60vw;
+       }
+       .subAboutParametersBtnIconAdv{
+        margin-left:61vw;
+       }
+}
+@media screen and (max-width: 912px){
+    .container{
+        margin: 0 -1rem 0 -2rem ;
+    }
+    .aboutParameters{
+        margin: 0 0 0 0 ;
+    }
+    .subAboutParametersBtnIcon{
+        margin-left:55vw;
+       }
+       .subAboutParametersBtnIconAdv{
+        margin-left:57vw;
+       }
+}
+@media screen and (max-width: 640px){
+    .subAboutParametersBtnIcon{
+        margin-left:45vw;
+       }
+       .subAboutParametersBtnIconAdv{
+        margin-left:47vw;
+       }
+}

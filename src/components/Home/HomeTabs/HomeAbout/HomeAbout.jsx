@@ -89,7 +89,7 @@ const HomeAbout =() =>{
                 </div>
 
               </div>
-              <div className={style.subContainer} data-aos="fade-left">
+              <div className={style.subContainer} >
                 <div className={style.subContainerHead}>
                      HELLO WE, KNM GROUP
                 </div>
