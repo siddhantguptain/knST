@@ -51,9 +51,13 @@
         margin: 1rem 0 ;
          padding: 0rem 2%;
     }
+    .Wtype{font-size: 1.2rem;
+
+    }
     .Wtitle{
-        margin-top: -20px;
-        font-size: 2.5rem;
+        margin-top: -30px;
+        font-size:3rem;
+        font-weight: 400;
     }
     
 }    

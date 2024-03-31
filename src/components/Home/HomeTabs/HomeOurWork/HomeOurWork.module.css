@@ -72,15 +72,26 @@
     .divTitle{
         font-size: 2rem;    
     }
-    .textContainer{
-        gap: 18%;
-    }
+
 }
 @media screen and (max-width: 640px){
     .textContainer{
         flex-direction: column;
     }
     .textContainerTwo{
-        margin: -10px 0 0 10px;
+        margin: -10px 0 0 0px;
+    }
+}
+@media screen and (max-width: 480px){
+    .textContainer{
+        padding: 1rem;
+    }
+    .title{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+    .divTitle{
+        margin-top: -0.9rem;
+        font-size: 1.5rem;    
     }
 }
