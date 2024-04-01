@@ -46,17 +46,27 @@ const HomeTestimonial =() =>{
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 480 ,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            
+          ],
       };
     
     return(
         <>  
-            <div className={style.container} data-aos="fade-right">
+            <div className={style.container}>
                 <div className={style.title}>
                 <div> RELATIONSHIPS <b>BASED ON TRUST.</b></div>
                 </div>
                 
-                <div className={style.subContainer} data-aos="zoom-in-up">
+                <div className={style.subContainer}>
                 <Slider {...settings}>
                 {TestimonialData.map((el) =>(
                     <HomeTestimonialCard 

@@ -36,8 +36,8 @@ const Services = () =>{
                             </div>                            
                          </div>
                         <div className={style.serImgContainer}>
-                            <img src={SerOne} alt="Serices" heights={300} width={800} />
-                            <img src={SerTwo} alt="Serices" heights={300} width={355} />
+                            <img className={style.serviceContainerOne} src={SerOne} alt="Serices" heights={300} width={800} />
+                            <img className={style.serviceContainerTwo} src={SerTwo} alt="Serices" heights={300} width={355} />
                         </div>
 
                      </div>
