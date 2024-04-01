@@ -68,9 +68,10 @@ const OurWork = () =>{
                 data-aos="fade-up"
                 >
                       <div className={style.overlay}></div>
-                    <div>OUR WORK<br /> 
+                    <div> <span className={style.titleSubHead} >OUR WORK</span>
+                    <br /> 
                     <span className={style.titleHead}>
-                        EXPLORE → VISUALISE → CREATE
+                        EXPLORE , VISUALISE , CREATE
                     </span></div>
                     
                 </div>
@@ -81,7 +82,7 @@ const OurWork = () =>{
              <div className={style.subContaierSecond}>
                 <div className={style.subTitle} data-aos="fade-down" >SOME OF OUR BEST WORKS
                 </div>   
-                <div className={style.subHead} data-aos="fade-down" >ADVERTISEMENT || EVENTS || CORPORATE VIDEOS || INFORMATIVE VIDEOS || E-COMMERCE
+                <div className={style.subHead} data-aos="fade-down" >ADVERTISEMENT || EVENTS || CORPORATE VIDEOS || INFORMATIVE VIDEOS ||  E-COMMERCE
                 </div>   
 
                 <div className={style.Dis}>

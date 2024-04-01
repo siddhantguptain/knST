@@ -5,7 +5,6 @@
     background-color: rgba(0, 0, 0, 0.3);
     overflow: hidden;
     border-radius: 3px;
-
 }
 .cardImg{
     opacity: 0.8;
@@ -42,6 +41,21 @@
         opacity: 0.9;
         transition: .5s ease all;
     }
+}
+@media screen and (max-width: 480px){
+    .container{
+        margin: 59px 2% 0px 2%;
+        width: 345px;
+        height: 550px;
+    
+    }
+    .cardText{
+        margin-top: -50%;
+    }
+    .title{
+        
+    }
+    
 }
 
 

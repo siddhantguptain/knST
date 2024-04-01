@@ -66,3 +66,66 @@
 .DisThree{
     margin-top: 14%;
 }
+@media screen and (max-width: 480px){
+    .subContaierOne{
+        margin-top: -150px;
+        padding: 42vh 0 0 1.5vw ;
+        height: 70vh;
+    }
+    .overlay{
+        display: none;
+    }
+    
+    .title{
+        font-size: 3rem;
+        /* text-align: center; */
+        font-weight: 700;
+        margin: -10px 0 0 0px;
+        letter-spacing: 2px;
+        padding-left: 3REM;
+    }
+  .titleHead{
+        /* text-align: center; */
+          font-size: 2.4rem;
+          margin-top: 25px;
+          font-weight: 600;
+          width: 80%;
+          padding-left: 3REM;
+          line-height: 45px;
+      
+      }
+
+    .subContaierSecond{
+        margin-top: -70px;
+        position: relative;
+        min-height: 90vh;
+        padding: 7rem 0.5rem;
+        background-image: url('../../../img/bg-dot.png');
+    }
+
+    .subTitle{
+        font-size: 1.5rem;
+        margin-left: 10px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .subHead{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.07rem;
+        font-weight: 700;
+    }
+
+.Dis{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DisTwo{
+    margin-top: 0%;
+}
+
+.DisThree{
+    margin-top: 0%;
+}
+}
