@@ -76,5 +76,16 @@ gap: 30px;
         flex-direction: column;
         gap: 30px;
     }
-    
+    .cardImg{
+        margin-left: -30px;
+    }
+    .memberContent{
+        backdrop-filter: blur(60px);
+    }
+    .memberName{
+        font-size: 1.8rem;
+    }
+    .userSocialMedia{
+        margin-top: 20px;
+    }
 }
