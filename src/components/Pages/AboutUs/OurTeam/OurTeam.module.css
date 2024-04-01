@@ -65,3 +65,16 @@ gap: 30px;
     justify-content: center;
 }
 
+@media screen and (max-width: 480px){
+    .container{
+        margin-top: 20vh;
+        min-height: 90vh;
+        padding: 2rem 1rem;
+    }
+    .members{
+        padding: 0px 3px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+}
