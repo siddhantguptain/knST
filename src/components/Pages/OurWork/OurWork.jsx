@@ -71,7 +71,7 @@ const OurWork = () =>{
                     <div> <span className={style.titleSubHead} >OUR WORK</span>
                     <br /> 
                     <span className={style.titleHead}>
-                        EXPLORE , VISUALISE , CREATE
+                        EXPLORE, VISUALISE, CREATE
                     </span></div>
                     
                 </div>
