@@ -28,7 +28,7 @@ const HomeBlogs =() =>{
 
             <div className={style.subContainer}>
                     <HomeBlogsCard 
-                        src={   <img src={BL1} alt=">Why is marketing important for businesses?" height="300"/>} 
+                        src={   <img src={BL3} alt=">Why is marketing important for businesses?" height="300"/>} 
                         tag="July 12, 2023 .. Marketing"
                         title="Why is marketing important for businesses?"
                     />
@@ -40,7 +40,7 @@ const HomeBlogs =() =>{
                         Visual Content Creation."
                     />
                     <HomeBlogsCard 
-                        src={   <img src={BL3} alt=">Some of the Most Viral Advertisements" height="300"/>} 
+                        src={   <img src={BL1} alt=">Some of the Most Viral Advertisements" height="300"/>} 
                         tag="July 22, 2022 .. Educational"
                         title="Some of the Most Viral Advertisements"
                     />
