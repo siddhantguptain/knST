@@ -46,13 +46,23 @@ const HomeTestimonial =() =>{
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 480 ,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            
+          ],
       };
     
     return(
         <>  
             <div className={style.container} data-aos="fade-right">
-
+            <div className={style.textContainer}>
             <div className={style.sub}>
               <h3><FaCircle /></h3>
             <div className={style.subTitle}>
@@ -63,7 +73,7 @@ const HomeTestimonial =() =>{
                 <div className={style.title}>
                 <h1> ARE SAYING</h1>
                 </div>
-                
+                </div>
                 <div className={style.subContainer} data-aos="zoom-in-up">
                 <Slider {...settings}>
                 {TestimonialData.map((el) =>(

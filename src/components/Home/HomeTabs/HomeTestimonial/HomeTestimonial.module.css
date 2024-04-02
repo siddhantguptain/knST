@@ -42,3 +42,29 @@
 .testimonial{
     padding: 3px;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 0;
+    }
+    .textContainer{
+        padding: 1rem;
+    }
+    .subContainer{
+        /* flex-direction: column; */
+        margin: 4rem 0.2rem 1rem 1.2rem;
+        padding: 0.5rem 0rem;
+        width: 89%;
+    }
+    .title{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+    .divTitle{
+        margin-top: -0.9rem;
+        font-size: 1.5rem;    
+    } 
+    .subContainer{
+        margin-top: -5vh;
+    }
+}    
