@@ -5,8 +5,10 @@ const HomeBlogsCard =(props) =>{
     return(
         <>  
             <div className={style.container}>
-                <div className={style.imgDIV}>
-                  {props.src}
+                <div className={style.imgDIVContainer}>
+                    <span className={style.imgDIV}>
+                         {props.src}
+                    </span>
                 </div>
                 <div className={style.tag}>{props.tag}</div>
                 <div className={style.title}>{props.title}</div>

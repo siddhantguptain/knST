@@ -32,3 +32,25 @@
     display: flex;
     gap: 2rem;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        margin-bottom: 10vh;
+        padding: 1rem 0.5rem;
+    }
+    .subContainer{
+        flex-direction: column;
+    }
+    .title{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+    .divTitle{
+        margin-top: -0.9rem;
+        font-size: 1.5rem;    
+    }
+    .subContainer{
+        margin: 0rem 0%;
+        padding: 2rem 0 0 0;
+    }
+}

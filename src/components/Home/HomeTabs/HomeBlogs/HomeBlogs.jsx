@@ -33,14 +33,16 @@ const HomeBlogs =() =>{
                         title="Why is marketing important for businesses?"
                     />
                     <HomeBlogsCard 
-                        src={   <img src={BL2} alt=">Why is marketing important for businesses?" height="300"/>} 
+                        src={   <img src={BL2} alt="The Importance of
+                        Visual Content Creation." height="300"/>} 
                         tag="July 18, 2023 .. Editorial"
-                        title="Power of story telling in content marketing."
+                        title="The Importance of
+                        Visual Content Creation."
                     />
                     <HomeBlogsCard 
-                        src={   <img src={BL3} alt=">Why is marketing important for businesses?" height="300"/>} 
+                        src={   <img src={BL3} alt=">Some of the Most Viral Advertisements" height="300"/>} 
                         tag="July 22, 2022 .. Educational"
-                        title="Growth of influencer marketing"
+                        title="Some of the Most Viral Advertisements"
                     />
             </div>
             </div>
