@@ -25,7 +25,7 @@ const FOOTER = () =>{
                 </div>
                 <div className={style.line} />
                 <div className={style.copyRight} >
-                         KNM Studio © 2024 Designed b   y Siddhant Gupta
+                         KNM Studio © 2024 Designed by Siddhant Gupta
                 </div>
                 
             </footer>

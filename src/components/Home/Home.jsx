@@ -30,7 +30,7 @@ const Home = () =>{
                    </div>
 
                    <HomeAbout />
-                   {/* <HomeService /> */}
+                   <HomeService />
                    <HomeOurWork />
                    <HomeVision />
                    <div className={style.queDiv}>
@@ -41,17 +41,18 @@ const Home = () =>{
                                     <div> OUR CLIENTS</div>
                                 </div>
                                 </div>  
-                                <h3 className={style.divTitle}>YOUR SUCCESSFUL,</h3>
+                                <h3 className={style.divTitle}>YOUR SUCCESSFUL,
+                                </h3>
                                 <div className={style.title}>
                                 <h1> OUR REPUTATION</h1>
                                 </div>
                               <div className={style.brandContainer} ><BrandQue /></div>
                    </div>
                    <HomeTestimonial />
-                   {/* <HomeBlogs /> */}
+                   <HomeBlogs />
                 </div>
+                
             </div>
-
         </>
     );
 }
