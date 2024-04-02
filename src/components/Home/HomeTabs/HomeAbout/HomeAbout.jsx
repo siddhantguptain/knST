@@ -45,7 +45,13 @@ const HomeAbout =() =>{
                                      </div>  
                             </div>
                             <div className={style.aboutParametersPARA}>
-                            At KNM Studio, our vision is to become the premier creative ad agency in India, setting the benchmark for excellence in the industry. We are committed to providing the finest video production services, offering comprehensive 360-degree solutions to meet our clients' diverse requirements. By harnessing innovation, creativity, and cutting-edge technology, we aspire to deliver captivating visual narratives that captivate audiences and elevate brands to new heights. With a relentless pursuit of perfection, we aim to be the go-to partner for businesses seeking exceptional video production and advertising solutions, leaving a lasting impact on their industries.
+                            At KNM Studio, our vision is to become the leading visual consultancy in India, setting the standard 
+                            for excellence in the industry. We are dedicated to offering top-tier visual production services, 
+                            delivering comprehensive solutions tailored to our clients' varied needs. By embracing innovation, 
+                            creativity, and state-of-the-art technology, we aim to create compelling visual stories that engage 
+                            audiences and propel brands to unprecedented levels of success. With an unwavering 
+                            commitment to perfection, we strive to be the preferred partner for businesses in search of 
+                            outstanding visual consultancy services, making a lasting impact in their respective fields.
                             </div>  
                         </div>
                      </div>
@@ -63,7 +69,11 @@ const HomeAbout =() =>{
                                      </div>  
                             </div>
                             <div className={style.aboutParametersPARA}>
-                            At KNM Studio, our mission is to empower businesses worldwide through the transformative power of visual storytelling. We strive to create captivating narratives, produce compelling content, and explore innovative possibilities. By uncovering untapped potential, we aim to redefine communication and elevate brands to new heights, driving remarkable achievements across industries.
+                            At KNM Studio, our mission is to empower businesses worldwide through the transformative power 
+                            of visual storytelling. We strive to create captivating narratives, produce compelling content, and 
+                            explore innovative possibilities. By uncovering untapped potential, we aim to redefine 
+                            communication and elevate brands to new heights, driving remarkable achievements across 
+                            industries.
                             </div>  
                         </div>
                      </div>
@@ -81,7 +91,9 @@ const HomeAbout =() =>{
                                      </div>  
                             </div>
                             <div className={style.aboutParametersPARA}>
-                            At KNM Studio, our vision is to become the premier creative ad agency in India, setting the benchmark for excellence in the industry. We are committed to providing the finest video production services, offering comprehensive 360-degree solutions to meet our clients' diverse requirements. By harnessing innovation, creativity, and cutting-edge technology, we aspire to deliver captivating visual narratives that captivate audiences and elevate brands to new heights. With a relentless pursuit of perfection, we aim to be the go-to partner for businesses seeking exceptional video production and advertising solutions, leaving a lasting impact on their industries.
+                            Empowering businesses through captivating ads, commercial video production, corporate videos, 
+                            event coverage, brand development, and e-commerce solutions. Discover the untapped potential 
+                            of visual storytelling with us and redefine communication for lasting success.
                             </div>  
                         </div>
                      </div>
@@ -89,7 +101,7 @@ const HomeAbout =() =>{
                 </div>
 
               </div>
-              <div className={style.subContainer} >
+              <div className={style.subContainer} data-aos="fade-up">
                 <div className={style.subContainerHead}>
                      HELLO WE, KNM GROUP
                 </div>
