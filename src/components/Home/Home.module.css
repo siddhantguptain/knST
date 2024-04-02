@@ -55,3 +55,47 @@
     width: 100vw;
     /* background-color:rgb(0, 0, 0.1); */
 }
+/* 
+@media screen and (max-width: 1012px){
+    .mainContainer{
+        padding: 30vh 0vw;
+    }
+}
+@media screen and (max-width: 840px){
+    .mainContainer{
+        padding: 30vh 3vw;
+    }
+}
+@media screen and (max-width: 640px){
+    .mainContainer{
+        padding: 30vh 1vw;
+    }
+} */
+
+@media screen and (max-width: 480px){
+    .mainContainer{
+        padding: 0vh 2%;
+        margin: 0vh 0vw;
+    }
+    .queDiv{
+        margin: 10vh 0 -10vh 0;
+        padding: 1rem;
+    }
+    .brandContainer{
+        margin-top: 0rem;
+        margin-left:-3.5rem;
+        width: 100vw;
+    }
+    .subContainer{
+        flex-direction: column;
+    }
+    .title{
+        margin-top: -2rem;
+        font-size: 1rem;
+    }
+    .divTitle{
+        margin-top: -0.9rem;
+        font-size: 1.5rem;    
+    }
+
+}  
