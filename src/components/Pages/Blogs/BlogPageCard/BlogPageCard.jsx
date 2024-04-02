@@ -3,8 +3,9 @@ import KnmButton from "../../../KnmButton/KnmButton";
 
 const BlogPageCard =(props) =>{
     return(
-        <>  
+        <>    
             <div className={style.container}>
+          
                 <div className={style.imgDIVContainer}>
                     <span className={style.imgDIV}>
                          {props.src}
@@ -18,7 +19,8 @@ const BlogPageCard =(props) =>{
                             <KnmButton text="Read More." />
 
                      </div>
-                </div>    
+                </div> 
+                   
             </div>
         </>
     );

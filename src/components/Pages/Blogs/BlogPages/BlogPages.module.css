@@ -56,3 +56,12 @@
     font-weight: 400;
     color: white;
 }
+
+@media screen and (max-width: 480px){
+    .blogHeading{
+        font-size: 2rem;
+    }
+    .blogHeadingAdv{
+        font-size: 3rem;
+    }
+}
