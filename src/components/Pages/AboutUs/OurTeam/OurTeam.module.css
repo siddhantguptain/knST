@@ -88,4 +88,14 @@ gap: 30px;
     .userSocialMedia{
         margin-top: 20px;
     }
+    .member:hover{
+
+        .cardImg{
+            scale: 1.2;
+        }
+        .memberRole{
+            margin-top: 0px;
+        }
+    
+    }
 }

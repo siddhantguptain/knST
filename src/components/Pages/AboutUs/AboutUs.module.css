@@ -65,6 +65,37 @@
     color: rgb(34, 33, 33);
   
 }
+
+.subContaierThird{
+    margin: 7% 0% 0 0%;
+    padding: 6rem 9rem 4rem 9rem;
+    display: flex;
+    
+}
+.subContaierThirdCard{
+    margin: 1vh 0.5vw;
+    padding: 2rem 1rem;
+    flex: 1;
+    /* width: 100%; */
+    border: 0.5px solid rgb(38, 38, 38);
+}
+.subContaierThirdCardHead{
+    /* margin-top: 1em; */
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    border-bottom:  0.5px solid rgb(38, 38, 38);
+    margin-bottom: 20px;
+        .mainHead{
+            position: absolute;
+            margin: 0 10px;
+        }
+    }           
+        .subContaierThirdCardPara{
+            letter-spacing: 1px;   
+            padding: 0 1rem;   
+            /* opacity: 0.5;  */
+        }
 @media screen and (max-width: 480px){
     .subContaierOne{
         margin-top: -150px;
@@ -108,5 +139,11 @@
         font-size: 1.1rem;
         padding: 0 0.4rem;
         letter-spacing: 1.5px;
+    }
+
+    .subContaierThird{
+        flex-direction: column;
+        margin: 7% 0% 0 0%;
+        padding:1rem 0.5rem;
     }
 }
