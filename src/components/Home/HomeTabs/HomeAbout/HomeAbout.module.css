@@ -102,9 +102,15 @@ margin: 5px 0 0 15px;
     margin-left: 392px;
 }
 .aboutParametersPARA{
-    margin: 5px 100px 20px 50px;
+    font-size: 90%;
+    margin: 5px 30px 20px 50px;
     letter-spacing: 1px;
     display: none;
+    transition: display 1s;
+    
+}
+.aboutParametersPARAActive{
+    display: block;
 }
 
 
@@ -173,32 +179,44 @@ margin: 5px 0 0 15px;
 /* Phone */
 @media screen and (max-width: 480px){
     .container{
-        margin: 5vh 1rem;
+        margin: 2vh 0.7rem;
     }
     .subContainer{
         margin-top: 10vh;
         padding: 0;
     }
   .parameters{
-    margin-left: -1rem;
+    /* margin-left: -1rem; */
+  }
+  .subAboutParameters{
+    padding: 1rem 0.5rem;
   }
     .subAboutParametersBtnIcon{
-        margin-left:35vw;
+        margin-left:39vw;
        }
        .subAboutParametersBtnIconAdv{
-        margin-left:38.5vw;
+        margin-left:42.5vw;
+       }
+       .aboutParametersPARA{
+        margin: 0px;
+        padding: 0.5rem;
+        font-size: 100%;
+        letter-spacing: 1.5px;
        }
        .subContainerTag{
-        margin-top: 10px;
+        margin-top: 2vh;
         font-size: 1.5rem;
        }
        .subContainerTagRole{
         font-size: 1.2rem;
        }
        .subContainerExp{
+        margin-top: 10px;
         gap: 1px;
-
-    }
+        }
+        .subContainerPara{
+        margin: 0 ;
+        }
        .subContainerExpNum{
         font-size: 100px;
         margin-top: -15px;

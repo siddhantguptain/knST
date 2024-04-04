@@ -33,7 +33,9 @@ const HomeAbout =() =>{
                 <div className={style.parameters}>
                      <div className={style.subParameters}>
                         <div className={style.aboutParameters}>
-                            <div className={style.subAboutParameters} onClick={() => setSliderToggle(1)}>
+                            <div className={style.subAboutParameters} onClick={() => {
+                                sliderToggle !== 1 ? setSliderToggle(1) : setSliderToggle(0)
+                                }}>
                                     <div className={style.subAboutParametersIcon}>
                                          <PiLightbulbLight size={32}/>
                                     </div>
@@ -44,7 +46,7 @@ const HomeAbout =() =>{
                                      <RiArrowDropDownLine size={32}/>
                                      </div>  
                             </div>
-                            <div className={style.aboutParametersPARA}>
+                            <div className={sliderToggle === 1 ? `${style.aboutParametersPARA} ${style.aboutParametersPARAActive}` :`${style.aboutParametersPARA}`}>
                             At KNM Studio, our vision is to become the leading visual consultancy in India, setting the standard 
                             for excellence in the industry. We are dedicated to offering top-tier visual production services, 
                             delivering comprehensive solutions tailored to our clients' varied needs. By embracing innovation, 
@@ -57,7 +59,8 @@ const HomeAbout =() =>{
                      </div>
                      <div className={style.subParameters}>
                         <div className={style.aboutParameters}>
-                            <div className={style.subAboutParameters} onClick={() => setSliderToggle(2)}>
+                            <div className={style.subAboutParameters} onClick={() => 
+                                sliderToggle !== 2? setSliderToggle(2) : setSliderToggle(0)}>
                                     <div className={style.subAboutParametersIcon}>
                                          < SlLayers size={32}/>
                                     </div>
@@ -68,7 +71,7 @@ const HomeAbout =() =>{
                                      <RiArrowDropDownLine size={32}/>
                                      </div>  
                             </div>
-                            <div className={style.aboutParametersPARA}>
+                            <div className={sliderToggle === 2 ? `${style.aboutParametersPARA} ${style.aboutParametersPARAActive}` :`${style.aboutParametersPARA}`}>
                             At KNM Studio, our mission is to empower businesses worldwide through the transformative power 
                             of visual storytelling. We strive to create captivating narratives, produce compelling content, and 
                             explore innovative possibilities. By uncovering untapped potential, we aim to redefine 
@@ -79,7 +82,8 @@ const HomeAbout =() =>{
                      </div>
                      <div className={style.subParameters}>
                         <div className={style.aboutParameters}>
-                            <div className={style.subAboutParameters} onClick={() => setSliderToggle(3)}>
+                            <div className={style.subAboutParameters} onClick={() => 
+                                sliderToggle !== 3 ? setSliderToggle(3) : setSliderToggle(0)}>
                                     <div className={style.subAboutParametersIcon}>
                                          <TbBinaryTree size={32}/>
                                     </div>
@@ -90,7 +94,7 @@ const HomeAbout =() =>{
                                      <RiArrowDropDownLine size={32}/>
                                      </div>  
                             </div>
-                            <div className={style.aboutParametersPARA}>
+                            <div className={sliderToggle === 3 ? `${style.aboutParametersPARA} ${style.aboutParametersPARAActive}` :`${style.aboutParametersPARA}`}>
                             Empowering businesses through captivating ads, commercial video production, corporate videos, 
                             event coverage, brand development, and e-commerce solutions. Discover the untapped potential 
                             of visual storytelling with us and redefine communication for lasting success.
