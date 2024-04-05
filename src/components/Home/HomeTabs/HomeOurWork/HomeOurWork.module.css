@@ -94,4 +94,8 @@
         margin-top: -0.9rem;
         font-size: 1.5rem;    
     }
+    .sliderContainer{
+        width: 90%;
+        margin-left: 20px;
+    }
 }

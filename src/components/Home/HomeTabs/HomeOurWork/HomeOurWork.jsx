@@ -56,7 +56,7 @@ const HomeOurWork =() =>{
                key:4,
                src:MDC,
                type:"Advertisement",
-               title:"AEGTE DD CREAM"
+               title:"AEGTE CREAM"
         },
         {
                key:5,
