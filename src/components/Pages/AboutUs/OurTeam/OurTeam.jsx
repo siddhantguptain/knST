@@ -1,16 +1,105 @@
 import style from './OurTeam.module.css';
 
-import { FaCircle } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
+import { FaCircle } from "react-icons/fa";
+
+
+import OurTeamCard from "./OurTeamCard/OurTeamCard";
 import Sparsh from "../../../../img/OurTeam/SHA02697.jpg";
 import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
 import Sayali  from "../../../../img/OurTeam/SHA02701.jpg";
 import Nikhil from "../../../../img/OurTeam/SHA02808.jpg";
+import  Sarah from "../../../../img/OurTeam/SHA02599.jpg";
+// Grafic Des
+import Ashiwajbe from "../../../../img/OurTeam/SHA02623.jpg";
+// Video Editor
+import AlanaritiAhuja  from "../../../../img/OurTeam/SHA02648.jpg";
+// Social; Media Manager
+import DeepakBhalerao from "../../../../img/OurTeam/SHA02724.jpg";
+// Video Editor
+import YashAgrawal  from "../../../../img/OurTeam/SHA02760.jpg";
+// Cinamatographer
 
 const OurTeam =() =>{
-
+    const ourTeamData = [
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:3,
+            src:Sparsh,
+            name:"Sparsh Agrawal",
+            role:"Founder",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        
+    ];
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 480 ,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            
+          ],
+      };
     return(
         <>  
             <div className={style.container}>
@@ -23,9 +112,19 @@ const OurTeam =() =>{
                 <div className={style.title}>
                 <h1> THE BEST TEAM EVER!</h1>
                 </div>
-           
+               
                 <div className={style.members}>
-                     <div className={style.member}>
+                <Slider {...settings}>
+                {ourTeamData.map((el) =>(
+                    <OurTeamCard 
+                    key={el.key}
+                    src={el.src}
+                    name={el.name}
+                    role={el.role}
+               />
+                ))}
+
+                     {/* <div className={style.member}>
                           <img className={style.cardImg} src={Sparsh} alt="knmStudioTeam" width={400} height={550} />
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>Sparsh Agrawal</div>
@@ -98,7 +197,7 @@ const OurTeam =() =>{
                           <img className={style.cardImg} src={Nikhil} alt="knmStudioTeam" width={400} height={550} />
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>Nikhil Inamke</div>
-                                    <div className={style.memberRole}> Head of Videography </div>
+                                    <div className={style.memberRole}> Corporate Head </div>
                                     <div className={style.userSocialMedia}>
                                         <div className={style.userSocialMediaIcons}>
                                             <a 
@@ -117,9 +216,10 @@ const OurTeam =() =>{
                                     </div>
                                 </div>
                     </div>
-
-                 
+                 */}
+                    </Slider>
                 </div>
+               
             </div>
         </>
     );

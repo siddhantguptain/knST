@@ -17,11 +17,11 @@ const ABOUT = () =>{
             <div className={style.subContaierOne}>  
             <div className={style.overlay}></div>  
                 <div className={style.title} data-aos="fade-down" > 
-                    <div>ELEVATING YOUR VISION WITH <br /> <span className={style.titleHead}>PROFICIENT VIDEO PRODUCTION</span></div>
+                    <div>Empowering businesses through captivating ads, commercial video production, corporate videos,
+event coverage, brand development, and e-commerce solutions. <br /> <span className={style.titleHead}>Discover the untapped potential
+of visual storytelling with us and redefine communication for lasting success.
+</span></div>
                     
-                </div>
-                <div className={style.para} data-aos="fade-down" >
-                Searching for a partner to make your online presence remarkable? <br />Look no further. Our team can elevate your business to new heights.
                 </div>
                 <div className={style.callForAction}></div>
             </div>
