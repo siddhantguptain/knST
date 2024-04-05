@@ -21,7 +21,7 @@
     padding: 3vh 1vw;
 }
 .blogContentContainer{
-    margin: 10vh 7vw;
+    margin: 10vh 18vw;
 }
 .blogContentHead{
     font-size:1.5rem;
@@ -41,6 +41,9 @@
     font-weight:400;
     color: white;
     margin: 5vh 0.5vw 1vh 0.5vw;
+}
+.blogImg{
+    text-align: center;
 }
 .blogSubContentPara{
     margin:0vh 2vw;
@@ -63,5 +66,8 @@
     }
     .blogHeadingAdv{
         font-size: 3rem;
+    }
+    .blogContentContainer{
+        margin: 10vh 3vw;
     }
 }
