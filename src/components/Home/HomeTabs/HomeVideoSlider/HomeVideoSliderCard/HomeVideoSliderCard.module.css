@@ -55,10 +55,17 @@ video{
 }
 
 @media screen and  (max-width: 480px){
-    video{
-        height:110vh;
+    .containerHome{
+    height: 110vh;
+    padding-top: 35% ;
+    }
+    .containerHome video{
+        top: 20%;
+        height:55vh;
+        width: 100%;
     }
     .content{
+        /* margin-top: 20%; */
         margin-left: 1.5rem; 
         top: 60%;
  }
