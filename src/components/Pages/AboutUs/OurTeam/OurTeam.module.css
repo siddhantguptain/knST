@@ -21,8 +21,7 @@
 }
 .members{
     padding: 10px 50px;
-/* display: flex; */
-gap: 30px;
+
 }
 
 @media screen and (max-width: 480px){
@@ -31,5 +30,8 @@ gap: 30px;
         min-height: 90vh;
         padding: 2rem 1rem;
     }
-
+    .members{
+        padding: 10px 10px;
+    
+    }
 }

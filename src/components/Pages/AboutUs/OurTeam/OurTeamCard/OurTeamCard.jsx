@@ -12,7 +12,7 @@ const OurTeamCard =(props) =>{
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>{props.name}</div>
                                     <div className={style.memberRole}>{props.role}</div>
-                                    <div className={style.userSocialMedia}>
+                                    {/* <div className={style.userSocialMedia}>
                                         <div className={style.userSocialMediaIcons}>
                                             <a 
                                                href="https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" 
@@ -27,7 +27,7 @@ const OurTeamCard =(props) =>{
                                               <FaLinkedinIn size={25} />
                                              </a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                     </div>
 

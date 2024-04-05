@@ -49,11 +49,9 @@
     justify-content: center;
 }
 @media screen and (max-width: 480px){
-    .members{
-        padding: 0px 3px;
-        flex-direction: column;
-        gap: 30px;
-    }
+    .member{ 
+        height: 600px;
+     }
     .cardImg{
         margin-left: -30px;
     }
