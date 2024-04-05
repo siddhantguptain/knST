@@ -97,6 +97,13 @@
             padding: 0 1rem;   
             /* opacity: 0.5;  */
         }
+
+        .subContaierForth{
+            margin: 0% 9.5rem 0 9.5rem;
+            padding: 6rem 2rem 4rem 2rem;
+            border: 0.5px solid rgb(38, 38, 38);
+            backdrop-filter: blur(2px);
+        }      
 @media screen and (max-width: 480px){
     .subContaierOne{
         margin-top: -150px;

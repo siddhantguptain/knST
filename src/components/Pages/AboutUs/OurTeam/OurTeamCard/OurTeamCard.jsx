@@ -6,7 +6,9 @@ const OurTeamCard =(props) =>{
     return(
         <>  
         <div className={style.member}>
+                    <div className={style.memberImg}>
                           <img className={style.cardImg} src={`${props.src}`} alt="knmStudioTeam" width={400} height={550} />
+                    </div>      
                                 <div className={style.memberContent}>
                                     <div className={style.memberName}>{props.name}</div>
                                     <div className={style.memberRole}>{props.role}</div>

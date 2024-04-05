@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { PiLightbulbLight } from "react-icons/pi";
 import { SlLayers } from "react-icons/sl";
+import { FaUserAlt } from "react-icons/fa";
 import BRAND_QUE from "../../BrandQue/BrandQue";
 import OurTeam from "./OurTeam/OurTeam"
 const ABOUT = () =>{
@@ -50,7 +51,22 @@ of visual storytelling with us and redefine communication for lasting success.
                             industries.
                     </div>
                 </div>
+                
             </div>
+            <div className={style.subContaierForth}>
+                <div className={style.subContaierThirdCardHead} data-aos="zoom-in-down">  < FaUserAlt size={30}/> <span className={style.mainHead}> Founder Statemnet
+ </span> </div>
+                    <div className={style.subContaierThirdCardPara} data-aos="zoom-in-down">
+                    Formerly a dedicated cinematographer, Sparsh Agrawal now leads Pune's premier visual
+consultancy firm within just three years. With a diverse clientele spanning electronics, automobiles,
+fashion, publications, and real estate, Sparsh's passion lies in continuous learning and growth. He
+closely collaborates with clients, understanding their needs to deliver impactful visual solutions.
+Known for his mentorship in video creation, Sparsh fosters growth both professionally and
+personally. Outside work, he finds joy in spending time with friends, traveling, and meditation. His
+dedication ensures his company stands out in the industry, leaving a lasting impression.
+                    </div>
+
+                </div>    
             <div className={style.ourTeam}>
                 <OurTeam />
             </div>        

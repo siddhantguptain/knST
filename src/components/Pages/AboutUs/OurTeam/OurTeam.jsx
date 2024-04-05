@@ -26,58 +26,66 @@ import YashAgrawal  from "../../../../img/OurTeam/SHA02760.jpg";
 const OurTeam =() =>{
     const ourTeamData = [
         {
+            key:2,
+            src:Shailesh,
+            name:"Shailesh Tilekar",
+            role:"Creative Head",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" ,
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/ "
+        },
+        {
             key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
+            src:Sayali,
+            name:"Sayali RasKar",
             role:"Founder",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
-            key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
-            role:"Founder",
+            key:4,
+            src:Nikhil,
+            name:"Nikhil Inamke",
+            role:"Corporate Head",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
-            key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
-            role:"Founder",
+            key:5,
+            src:Sarah,
+            name:"Sarah",
+            role:"Graphic Design",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
-            key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
-            role:"Founder",
+            key:6,
+            src:Ashiwajbe,
+            name:"Ashiwajbe",
+            role:"Video Editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
-            key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
-            role:"Founder",
+            key:7,
+            src:AlanaritiAhuja,
+            name:"Alanariti Ahuja",
+            role:" Social Media Manager",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
-            key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
-            role:"Founder",
+            key:8,
+            src:DeepakBhalerao,
+            name:"Deepak Bhalerao",
+            role:"Video Editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
-            key:3,
-            src:Sparsh,
-            name:"Sparsh Agrawal",
-            role:"Founder",
+            key:9,
+            src:YashAgrawal,
+            name:"Yash Agrawal",
+            role:"Cinamatographer",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
@@ -87,7 +95,7 @@ const OurTeam =() =>{
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {
