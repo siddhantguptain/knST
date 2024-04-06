@@ -47,7 +47,7 @@ const ContactForm = () =>{
                             autoComplete="off"
                             required
                         />
-      <select name="languages" id="lang">
+      {/* <select name="languages" id="lang">
         <option value="javascript">JavaScript</option>
         <option value="php">PHP</option>
         <option value="java">Java</option>
@@ -56,9 +56,9 @@ const ContactForm = () =>{
         <option value="c#">C#</option>
         <option value="C++">C++</option>
         <option value="erlang">Erlang</option>
-      </select>
+      </select> */}
                         <br />
-                         <textarea
+                         {/* <textarea
                             className={style.inputField}
                             type="text"
                             name="comanyName"
@@ -67,7 +67,7 @@ const ContactForm = () =>{
                             cols="70"
                             autoComplete="off"
                             required
-                        />
+                        /> */}
                     </from>
                     
             </div>

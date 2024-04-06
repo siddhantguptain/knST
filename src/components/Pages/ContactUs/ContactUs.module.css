@@ -87,3 +87,46 @@ letter-spacing: 2px;
 .contactMap{
   opacity: 0.7;
 }
+@media screen and (max-width: 480px){
+  .subContaierOne{
+    margin-top: -100px;
+    padding: 15vh 0 0 2rem;
+  }
+  .title{
+    font-size: 3rem;
+      font-weight: 200;
+    line-height: 45px;
+  }
+  .titleHead{
+      font-weight: 500;
+      font-size: 3rem;
+      margin-top: 7px;
+      width:0px;
+  }
+
+  .para{
+    margin-top: 430px;
+    font-size: var(--paraText);
+    width: 95%;
+}
+.contactForm{
+  margin: -20vh 0 0 0;
+  padding: 2rem 3rem 0 0   ;
+  min-height: 80vh;
+  flex-direction: column;
+  display: none;
+}
+
+.contactFormSecond{
+  margin: 0 2rem;
+  /* margin-left: 0%; */
+  width:100%
+}.contactInfo{
+  padding: 20% 0 20% 10%;
+}
+.contactFormOne{
+  width: 100%;
+  padding-left: 12%;
+  padding-top: 15vh;
+}
+}
