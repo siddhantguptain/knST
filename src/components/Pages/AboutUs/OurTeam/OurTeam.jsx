@@ -8,7 +8,6 @@ import { FaCircle } from "react-icons/fa";
 
 
 import OurTeamCard from "./OurTeamCard/OurTeamCard";
-import Sparsh from "../../../../img/OurTeam/SHA02697.jpg";
 import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
 import Sayali  from "../../../../img/OurTeam/SHA02701.jpg";
 import Nikhil from "../../../../img/OurTeam/SHA02808.jpg";

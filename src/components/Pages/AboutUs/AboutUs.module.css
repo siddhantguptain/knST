@@ -75,35 +75,54 @@
 }
 .subContaierThirdCard{
     margin: 1vh 0.5vw;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     flex: 1;
     /* width: 100%; */
     border: 0.5px solid rgb(38, 38, 38);
 }
 .subContaierThirdCardHead{
     /* margin-top: 1em; */
-    font-size: 1.8rem;
-    font-weight: 600;
+   
+    font-size: 1.5rem;
+    font-weight: 500;
     color: white;
     border-bottom:  0.5px solid rgb(38, 38, 38);
     margin-bottom: 20px;
         .mainHead{
             position: absolute;
-            margin: 0 10px;
+            margin: 5px  0px 0 10px;
         }
     }           
         .subContaierThirdCardPara{
+            /* font-size: 1.2rem; */
             letter-spacing: 1px;   
             padding: 0 1rem;   
             /* opacity: 0.5;  */
         }
 
         .subContaierForth{
-            margin: 0% 9.5rem 0 9.5rem;
-            padding: 6rem 2rem 4rem 2rem;
+            margin: 0 9.5rem 0 9.5rem;
+            padding: 1rem 2rem 2rem 2rem;
             border: 0.5px solid rgb(38, 38, 38);
             backdrop-filter: blur(2px);
-        }      
+        } 
+       .subContaierForthCardContent{
+        display:flex;
+        padding: 0rem 7rem;
+       } 
+       .subContaierForthCardPara{
+        flex: 1;
+        /* font-size: 1.2rem; */
+        letter-spacing: 1.4px;   
+        padding:2rem 2rem 0 2rem;   
+        /* opacity: 0.5;  */
+    }
+       .subContaierThirdCardImg{
+        flex:1;
+       }
+       .forthCardImg{
+        border-radius: 5px;
+       }
 @media screen and (max-width: 480px){
     .subContaierOne{
         margin-top: -150px;
@@ -158,5 +177,20 @@
     }
     .subContaierThirdCardPara{
         letter-spacing: 1.5px;
+    }
+    .subContaierForth{
+        padding:1rem 0.5rem;
+        margin: 0% 2% ;
+    }
+    .subContaierForthCardContent{
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .subContaierForthCardPara{
+        padding: 1rem 0rem;
+        letter-spacing: 1px;
+    }
+    .forthCardImg{
+        margin-left: 20px;
     }
 }

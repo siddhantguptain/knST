@@ -7,7 +7,8 @@ import { PiLightbulbLight } from "react-icons/pi";
 import { SlLayers } from "react-icons/sl";
 import { FaUserAlt } from "react-icons/fa";
 import BRAND_QUE from "../../BrandQue/BrandQue";
-import OurTeam from "./OurTeam/OurTeam"
+import OurTeam from "./OurTeam/OurTeam";
+import Sparsh from "../../../img/OurTeam/SHA02697.jpg";
 const ABOUT = () =>{
     useEffect(() =>{
         AOS.init({duration:400});
@@ -53,10 +54,12 @@ of visual storytelling with us and redefine communication for lasting success.
                 </div>
                 
             </div>
-            <div className={style.subContaierForth}>
-                <div className={style.subContaierThirdCardHead} data-aos="zoom-in-down">  < FaUserAlt size={30}/> <span className={style.mainHead}> Founder Statemnet
+            <div className={style.subContaierForth}  data-aos="zoom-in-down">
+                <div className={style.subContaierThirdCardHead}>  < FaUserAlt size={35}/> <span className={style.mainHead}> FOUNDER STATEMENT
  </span> </div>
-                    <div className={style.subContaierThirdCardPara} data-aos="zoom-in-down">
+                    
+ <div className={style.subContaierForthCardContent}>
+                    <div className={style.subContaierForthCardPara} >
                     Formerly a dedicated cinematographer, Sparsh Agrawal now leads Pune's premier visual
 consultancy firm within just three years. With a diverse clientele spanning electronics, automobiles,
 fashion, publications, and real estate, Sparsh's passion lies in continuous learning and growth. He
@@ -65,6 +68,11 @@ Known for his mentorship in video creation, Sparsh fosters growth both professio
 personally. Outside work, he finds joy in spending time with friends, traveling, and meditation. His
 dedication ensures his company stands out in the industry, leaving a lasting impression.
                     </div>
+                    <div className={style.subContaierThirdCardImg} >
+                    <img className={style.forthCardImg} src={Sparsh} alt="knmStudioTeam" width={300} height={400} />
+                    </div>    
+
+                    </div>    
 
                 </div>    
             <div className={style.ourTeam}>
