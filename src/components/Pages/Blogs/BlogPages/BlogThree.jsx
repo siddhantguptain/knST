@@ -1,5 +1,5 @@
 import style from './BlogPages.module.css';
-
+import Marketing from "../../../../img/BlogImg/Marketing.jpg"
 const BlogThree = () =>{
     return (
         <>
@@ -27,10 +27,13 @@ const BlogThree = () =>{
                                      is that the business starts controlling them. It's sad to see how much they struggle every day to
                                      keep their business going. They work hard, but they're not sure what the future holds for them.
                                 </p>
-                             
+                              
                              <div className={style.blogSubContent}>
-                                 <div className={style.blogSubContentHead}>Here is what you get after doing consistent marketing.
-
+                                 <div className={style.blogSubContentHeadAdv}>Here is what you get after doing consistent marketing.
+                                 <div className={style.blogImgAdv}>
+                                <img src={Marketing} alt="The Importance of  Visual Content 
+                                 Creation." height="300"/>
+                                 </div>
                                  </div>   
                                  <div className={style.blogSubContentPara}>
                                  <br/>
