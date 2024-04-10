@@ -3,7 +3,7 @@
 .member{  
     margin: 0 0.5rem; 
     flex: 1;
-    height: 560px;
+    /* height: 560px; */
     overflow: hidden;
     border: 0.5px solid rgb(38, 38, 38);
     border-radius: 5px;
@@ -36,11 +36,11 @@
 }
 .memberName{
     margin-top: -7px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 .memberRole{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 .userSocialMedia{
@@ -51,10 +51,11 @@
 }
 @media screen and (max-width: 480px){
     .member{ 
-        height: 600px;
+        /* height: 600px; */
      }
     .cardImg{
-        margin-left: -30px;
+        scale: 1.1;
+        /* margin-left: -30px; */
     }
     .memberContent{
         backdrop-filter: blur(60px);
