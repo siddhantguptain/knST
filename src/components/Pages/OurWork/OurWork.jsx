@@ -26,7 +26,7 @@ import VFS from '../../../img/OurWorkThumnail/VFS.png';
 import ASP from '../../../img/OurWorkThumnail/ASP.png';
 import V25 from '../../../img/OurWorkThumnail/V25.png';
 import ALK from '../../../img/OurWorkThumnail/ALK.png';
-import LIVA from '../../../img/OurWorkThumnail/LIVA.png';
+import LIVA from '../../../img/OurWorkThumnail/Liva.png';
 import AEL from '../../../img/OurWorkThumnail/AEL.png';
 import GHR from '../../../img/OurWorkThumnail/GHR.png';
 import COL from '../../../img/OurWorkThumnail/COL.png';
