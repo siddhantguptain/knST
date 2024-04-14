@@ -1,6 +1,6 @@
 .container{
-    width: 320px;
-    height: 300px;
+    width: 22vw;
+    height: 320px;
     margin: 0.5rem;
     padding: 2rem 1.5rem;
     border: 0.5px solid rgb(38, 38, 38);
@@ -27,6 +27,12 @@ margin-top: 0.5rem;
 font-size: 0.9rem;
 /* opacity: 0.7; */
 }
+@media screen and (max-width: 1400px){
+    .container{
+        width: 320px;
+    }
+}
+
 @media screen and (max-width: 480px){
     /* .container{
         width: 350px;

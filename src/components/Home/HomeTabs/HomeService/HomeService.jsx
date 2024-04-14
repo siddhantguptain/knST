@@ -22,7 +22,7 @@ const HomeService =() =>{
     return(
         <>  
             <div className={style.container}>
-                 <h3 className={style.title} data-aos="zoom-in-up">LET’S CHECK OUR SERVICES</h3>
+                 <h3 className={style.title} >LET’S CHECK OUR SERVICES</h3>
                 <div className={style.serviceCard}>
                     <ServiceCard  className={style.Card}
                          icon={<img src={BrandIMG} alt="BRAND DEVELOPMENT" width={150} />}     

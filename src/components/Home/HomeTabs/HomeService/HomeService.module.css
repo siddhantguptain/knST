@@ -9,10 +9,10 @@
 }
 
 .serviceCard{
-    margin: 1rem 3rem;
+  justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
 @media screen and (max-width: 480px){
@@ -21,6 +21,6 @@
     font-size: 2rem;
   }
   .serviceCard{
-    margin: 1rem 0rem;
+    /* margin: 1rem 0rem; */
   }
 }
