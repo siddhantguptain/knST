@@ -1,4 +1,4 @@
-import React, {useEffect}   from "react";
+import React, {useEffect, useState}   from "react";
 import style from "./OurWork.module.css";
 
 import OurWorkCard from './OurWorkCard/OurWorkCard';
@@ -56,10 +56,213 @@ import SHA from '../../../img/OurWorkThumnail/SHA.png';
 
 
 const OurWork = () =>{
+    const [displayType, setDisplayType] = useState("ALL");
+
     useEffect(() =>{
         AOS.init({duration:500});
     },[]);
+
+    const OurWorkDATAOne =[
+        {
+                src:ABM,
+                Vtyte:"ECommerce",
+                title:"ACTIMAX BRAND MASTER"
+        },
+        {
+            src:PLO,
+            Vtyte:"Corporate_Videos",
+            title:"Plastic Omnium"
+        },
+        {
+            src:LOR,
+            Vtyte:"Advertisement",
+            title:"Loreal Paris Rouge Signature"
+        },
+        {
+                src:X90,
+                Vtyte:"Advertisement",
+                title:"Vivo X90 Series"
+        },
+        {
+            src:O8S,
+            Vtyte:"Advertisement",
+            title:"One8 FUTURE"
+        },
+        {
+            src:CBH,
+            Vtyte:"Advertisement",
+            title:"Chota Don VIPS Wallet"
+        },
+        
+        {
+                src:AMC,
+                Vtyte:"ECommerce",
+                title:"Aegte- Mens DD Cream"
+        },
+        {
+            src:BHU,
+            Vtyte:"ECommerce",
+            title:"Bhumiya-Shrikhand"
+        },
+        {
+            src:VFT,
+            Vtyte:"Advertisement",
+            title:"VIPS Finstock- Fortune Teller"
+        },
+        {
+                src:SPA,
+                Vtyte:"Informative Videos",
+                title:"Spardha School of Music 10000+"
+        },
+        {
+            src:AMD,
+            Vtyte:"Corporate_Videos",
+            title:"Amdocs"
+        },
+        {
+            src:NP,
+            Vtyte:"Advertisement",
+            title:"Vivo V23 with Neha Pendse"
+        },
+        {
+            src:VDI,
+            Vtyte:"Advertisement",
+            title:"VIPS Finstock- Diwali"
+        },
+        
+    ]
+    const OurWorkDATATwo =[
+        {
+                src:VIP,
+                Vtyte:"Advertisement",
+                title:"VIPS Wallet Tapri"
+        },
+        {
+            src:SPI,
+            Vtyte:"Corporate_Videos",
+            title:"Vivo Travel with Arnab Satara"
+        },
+        {
+            src:OAM,
+            Vtyte:"Advertisement",
+            title:"One8 Attitude"
+        },
+        {
+                src:VFS,
+                Vtyte:"Advertisement",
+                title:"VIPS Finstock - Right Time to Invest"
+        },
+        {
+            src:ASP,
+            Vtyte:"ECommerce",
+            title:"ACTIMAX Style With Pants"
+        },
+        {
+            src:V25,
+            Vtyte:"Corporate_Videos",
+            title:"Vivo V25"
+        },
+        
+        {
+                src:ALK,
+                Vtyte:"Corporate_Videos",
+                title:"Alkegen"
+        },
+        {
+            src:LIVA,
+            Vtyte:"Advertisement",
+            title:"LIVA"
+        },
+        {
+            src:AEL,
+            Vtyte:"ECommerce",
+            title:"Aegte- Lip Balm"
+        },
+        {
+                src:GHR,
+                Vtyte:"Events",
+                title:"Godrej Hr Event"
+        },
+        {
+            src:COL,
+            Vtyte:"Corporate_Videos",
+            title:"Cologne Spa"
+        },
+        {
+            src:AMB,
+            Vtyte:"ECommerce",
+            title:"Aegte- Beard Growth Serum"
+        },
+        
+        
+    ]
+    const OurWorkDATAThree =[
+        {
+                src:MCA,
+                Vtyte:"Events",
+                title:"MCEA Award Night"
+        },
+        {
+            src:VCN,
+            Vtyte:"Events",
+            title:"Vivo Champions Night"
+        },
+        {
+            src:DEV,
+            Vtyte:"Events",
+            title:"Devfest 2022 GDG"
+        },
+        {
+                src:COM,
+                Vtyte:"Advertisement",
+                title:"Coffee Machine Demo"
+        },
+        {
+            src:APA,
+            Vtyte:"ECommerce",
+            title:"ACTIMAX Pants MASTER"
+        },
+        {
+            src:PBCL,
+            Vtyte:"Events",
+            title:"PBCL"
+        },
+        
+        {
+                src:BBE,
+                Vtyte:"Corporate_Videos",
+                title:"Bharat Benz 100+ Bus Delivery"
+        },
+        {
+            src:V29,
+            Vtyte:"Advertisement",
+            title:"Vivo V29e"
+        },
+        {
+            src:KUM,
+            Vtyte:"ECommerce",
+            title:"The Indie Earth"
+        },
+        {
+                src:FSB,
+                Vtyte:"ECommerce",
+                title:"FreeStyle - Sports Bra"
+        },
+        {
+            src:OOB,
+            Vtyte:"Advertisement",
+            title:"One8-ONE BEAT ONE RULE"
+        },
+        {
+            src:SHA,
+            Vtyte:"Informative Videos",
+            title:"Spardha School of Music"
+        },
+        
+        
+    ]
     return(
+        
         <>
           <div className={style.mainContainer}>
             <div className={style.subContaierOne}>
@@ -79,234 +282,74 @@ const OurWork = () =>{
             </div>
             {/* Second Container */}
            
-             <div className={style.subContaierSecond}>
-                <div className={style.subTitle} data-aos="fade-down" >SOME OF OUR BEST WORKS
+             <div className={style.subContaierSecond}  data-aos="fade-down" >
+                <div className={style.subTitle} >SOME OF OUR BEST WORKS
                 </div>   
-                <div className={style.subHead} data-aos="fade-down" >ADVERTISEMENT || EVENTS || CORPORATE VIDEOS || INFORMATIVE VIDEOS ||  E-COMMERCE
-                </div>   
+                <div className={style.subHead}>
 
+                    <div className={style.subHeadAction} onClick={() => 
+                                displayType !== "Advertisement"? setDisplayType("Advertisement") : setDisplayType("ALL")}>ADVERTISEMENT 
+                         ||
+                    </div>
+                     
+                    
+                    <div className={style.subHeadAction} onClick={() => 
+                                displayType !== "Events"? setDisplayType("Events") : setDisplayType("ALL")}>EVENTS 
+                         ||
+                    </div>
+                     
+                    
+                    <div className={style.subHeadAction} onClick={() => 
+                                displayType !== "Corporate_Videos"? setDisplayType("Corporate_Videos") : setDisplayType("ALL")}>CORPORATE VIDEOS 
+                         ||
+                    </div>
+                     
+                    
+                    <div className={style.subHeadAction} onClick={() => 
+                                displayType !== "Informative Videos"? setDisplayType("Informative Videos") : setDisplayType("ALL")}>INFORMATIVE VIDEOS 
+                         ||
+                    </div>
+                      
+                    
+                    <div className={style.subHeadAction} onClick={() => 
+                                displayType !== "ECommerce"? setDisplayType("ECommerce") : setDisplayType("ALL")}>E-COMMERCE
+                    </div>
+                
+                </div>   
+                            {console.log(displayType)}
                 <div className={style.Dis}>
-                    <div className={style.DisOne}>       
-                    <OurWorkCard className={style.disCard}
-                        title="ACTIMAX BRAND MASTER"
-                        Vtype="ECommerce"
-                        src={ABM}
-                    />
-                  
-                  <OurWorkCard className={style.disCard}
-                        title="Plastic Omnium"
-                        Vtype="Corporate_Videos"
-                        src={PLO}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="Loreal Paris Rouge Signature"
-                        Vtype="Advertisement"
-                        src={LOR}
-                    />
-                     <OurWorkCard className={style.disCard}
-                        title="Vivo X90 Series"
-                        Vtype="Advertisement"
-                        src={X90}
-                    />
-                  
-                  <OurWorkCard className={style.disCard}
-                        title="ACTIMAX POLO CATEGORY MASTER"
-                        Vtype="ECommerce"
-                        src={APM}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="One8 FUTURE"
-                        Vtype="Advertisement"
-                        src={O8S}
-                    />
-                      <OurWorkCard className={style.disCard}
-                        title="Chota Don VIPS Wallet"
-                        Vtype="Advertisement"
-                        src={CBH}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="Aegte- Mens DD Cream"
-                        Vtype="ECommerce"
-                        src={AMC}
-                    />
-                     <OurWorkCard className={style.disCard}
-                        title="Bhumiya-Shrikhand"
-                        Vtype="ECommerce"
-                        src={BHU}
-                    />
-                  
-                  <OurWorkCard className={style.disCard}
-                        title="VIPS Finstock- Fortune Teller"
-                        Vtype="Advertisement"
-                        src={VFT}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="Spardha School of Music 10000+"
-                        Vtype="Informative Videos"
-                        src={SPA}
-                    />
-                        <OurWorkCard className={style.disCard}
-                        title="Amdocs"
-                        Vtype="Corporate_Videos"
-                        src={AMD}
-                    />
-                        <OurWorkCard className={style.disCard}
-                        title="Vivo V23 with Neha Pendse"
-                        Vtype="Advertisement"
-                        src={NP}
-                    />
+                    <div className={style.DisOne}> 
+                    {OurWorkDATAOne.map((el) =>(
+                        <OurWorkCard 
+                            key={el.key}
+                            src={el.src}
+                            title={el.title}
+                            Vtype={el.Vtype}
+                            displayType={displayType}
+                        /> 
+                ))}  
                   </div>
                   <div className={style.DisTwo}>   
-
-                  <OurWorkCard className={style.disCard}
-                        title=" VIPS Wallet Tapri"
-                        Vtype="Advertisement"
-                        src={VIP}
-                    />
-                    <OurWorkCard className={style.disCard}
-                        title="Vivo Travel with Arnab Satara"
-                        Vtype="Corporate_Videos"
-                        src={SPI}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title=" One8 Attitude"
-                        Vtype="Advertisement"
-                        src={OAM}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="VIPS Finstock - Right Time to Invest"
-                        Vtype="Advertisement"
-                        src={VFS}
-                    />
-                    <OurWorkCard className={style.disCard}
-                        title=" ACTIMAX Style With Pants"
-                        Vtype="ECommerce"
-                        src={ASP}
-                    />
-                    <OurWorkCard className={style.disCard}
-                        title="Vivo V25"
-                        Vtype="Corporate_Videos"
-                        src={V25}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title="Alkegen"
-                        Vtype="Corporate_Videos"
-                        src={ALK}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="LIVA"
-                        Vtype="Advertisement"
-                        src={LIVA}
-                    />
-                       <OurWorkCard className={style.disCard}
-                        title="Aegte- Lip Balm     "
-                        Vtype="ECommerce"
-                        src={AEL}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title="Godrej Hr Event"
-                        Vtype="Events"
-                        src={GHR}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="Cologne Spa"
-                        Vtype="Corporate_Videos"
-                        src={COL}
-                    />
-                      <OurWorkCard className={style.disCard}
-                        title="Aegte- Beard Growth Serum"
-                        Vtype="ECommerce"
-                        src={AMB}
-                    />
-
-                    <OurWorkCard className={style.disCard}
-                        title="VIPS Finstock- Diwali"
-                        Vtype="Advertisement"
-                        src={VDI}
-                    />
-                    
+                  {OurWorkDATATwo.map((el) =>(
+                        <OurWorkCard 
+                            key={el.key}
+                            src={el.src}
+                            title={el.title}
+                            Vtype={el.Vtype}
+                            displayType={displayType}
+                        />
+                ))}
                   </div>   
-                  <div className={style.DisThree}>       
-                    <OurWorkCard className={style.disCard}
-                        title="MCEA Award Night"
-                        Vtype="Events"
-                        src={MCA}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title=" Vivo Champions Night"
-                        Vtype="Events"
-                        src={VCN}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="Devfest 2022 GDG"
-                        Vtype="Events"
-                        src={DEV}
-                    />
-                     <OurWorkCard className={style.disCard}
-                        title="Coffee Machine Demo"
-                        Vtype="Advertisement"
-                        src={COM}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title="ACTIMAX Pants MASTER"
-                        Vtype="ECommerce"
-                        src={APA}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="PBCL"
-                        Vtype="Events"
-                        src={PBCL}
-                    />
-
-                    <OurWorkCard className={style.disCard}
-                        title="Bharat Benz 100+ Bus Delivery"
-                        Vtype="Corporate_Videos"
-                        src={BBE}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title=" Vivo V29e"
-                        Vtype="Advertisement"
-                        src={V29}
-                    />
-
-                        <OurWorkCard className={style.disCard}
-                        title="The Indie Earth"
-                        Vtype="ECommerce"
-                        src={KUM}
-                    />
-                     <OurWorkCard className={style.disCard}
-                        title="FreeStyle - Sports Bra"
-                        Vtype="ECommerce"
-                        src={FSB}
-                    />
-                  
-                      <OurWorkCard className={style.disCard}
-                        title="One8-ONE BEAT ONE RULE"
-                        Vtype="Advertisement"
-                        src={OOB}
-                    />
-
-                    <OurWorkCard className={style.disCard}
-                        title="Spardha School of Music"
-                        Vtype="Informative Videos"
-                        src={SHA}
-                    />
-                  
+                  <div className={style.DisThree}> 
+                  {OurWorkDATAThree.map((el) =>(
+                        <OurWorkCard 
+                            key={el.key}
+                            src={el.src}
+                            title={el.title}
+                            Vtype={el.Vtype}
+                            displayType={displayType}
+                        />
+                ))} 
                   </div>  
                   </div>  
              </div>   

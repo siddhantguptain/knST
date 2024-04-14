@@ -44,7 +44,7 @@ const HomeAbout =() =>{
                                      </div>
                                      <div className={style.subAboutParametersBtnIcon}>
                                      <RiArrowDropDownLine size={32}/>
-                                     </div>  
+                                     </div>        
                             </div>
                             <div className={sliderToggle === 1 ? `${style.aboutParametersPARA} ${style.aboutParametersPARAActive}` :`${style.aboutParametersPARA}`}>
                             At KNM Studio, our vision is to become the leading visual consultancy in India, setting the standard 

@@ -10,6 +10,8 @@
     font-size:3rem;
     font-weight: 400;
     color:white;
+    padding: 1vh 8vw;
+    
 }
 .blogHeadingAdv{
     font-size:4rem;
@@ -42,9 +44,20 @@
     color: white;
     margin: 5vh 0.5vw 1vh 0.5vw;
 }
+.blogSubContentHeadAdv{
+    font-size:1.2rem;
+    font-weight:400;
+    color: white;
+    margin: 2vh 0.5vw 1vh 0.5vw;
+}
 .blogImg{
     text-align: center;
 }
+.blogImgAdv{
+    text-align: center;
+    margin-top: 3vh;
+}
+
 .blogSubContentPara{
     margin:0vh 2vw;
     opacity: 0.9;

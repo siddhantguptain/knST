@@ -51,7 +51,12 @@
     .subHead{
         margin-top: 10px;
         font-size: 1.2rem;
-        font-weight: 700;
+        font-weight: 500;
+        display: flex;
+        gap: 20px;
+    }
+    .subHeadAction{
+        cursor: pointer;
     }
 
 .Dis{
@@ -112,10 +117,11 @@
     .subHead{
         text-align: center;
         margin-top: 10px;
-        font-size: 1.07rem;
-        font-weight: 700;
+        font-size: 1.2rem;
+        font-weight: 400;
+        gap:5px;
+        flex-direction: column;
     }
-
 .Dis{
     flex-direction: column;
     gap: 20px;

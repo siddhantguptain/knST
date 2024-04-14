@@ -16,7 +16,7 @@ const BlogOne = () =>{
         <>
             <div className={style.container}>
                 <div className={style.blogHead}>
-                    <div className={style.blogHeading}>The Importance of <br/> Visual Content Creation in Large Companies and Businesses</div>
+                    <div className={style.blogHeading}>The Importance of Visual Content Creation in Large Companies and Businesses</div>
 
                 </div>
                 <div className={style.blogContentContainer}>

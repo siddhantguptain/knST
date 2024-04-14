@@ -1,5 +1,8 @@
 import './App.css';
 import { Routes,Route } from "react-router-dom";
+
+
+
 import NAVBAR from './components/Navbar/Navbar';
 import Home from './components/Home/Home'
 import AboutUs from './components/Pages/AboutUs/AboutUs';
@@ -16,24 +19,28 @@ import FOOTER from './components/Footer/Footer';
 function App() {
   return (
     <div className="App"> 
-           <NAVBAR />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about-us" element={<AboutUs />}  />
-              <Route path="/services" element={<Services />}  />
-              <Route path="/our-work" element={<OurWork />}  />
-              <Route path="/blogs" element={
-                  <>  
-                        <Blogs />
-                  </>
-              }  />
-              <Route path="/blogs/The-Importance-of-Visual-Content" element={<BlogOne />} />
-              <Route path="/blogs/Some-of-the-Most-Viral-Advertisements" element={<BlogTwo />}  />
-              <Route path="/blogs/Why-is-Marketing-Important-for-Business?" element={<BlogThree />}  />
-              <Route path="/contact-us" element={<ContactUs />}  /> 
-            </Routes>
-          <SocialMedia />
-          <FOOTER />
+      
+          <>
+          <NAVBAR />
+           <Routes>
+             <Route path="/" element={<Home />} />
+             <Route path="/about-us" element={<AboutUs />}  />
+             <Route path="/services" element={<Services />}  />
+             <Route path="/our-work" element={<OurWork />}  />
+             <Route path="/blogs" element={
+                 <>  
+                       <Blogs />
+                 </>
+             }  />
+             <Route path="/blogs/The-Importance-of-Visual-Content" element={<BlogOne />} />
+             <Route path="/blogs/Some-of-the-Most-Viral-Advertisements" element={<BlogTwo />}  />
+             <Route path="/blogs/Why-is-Marketing-Important-for-Business?" element={<BlogThree />}  />
+             <Route path="/contact-us" element={<ContactUs />}  /> 
+           </Routes>
+         <SocialMedia />
+         <FOOTER />
+       </> 
+            
     </div>
   );
 }
