@@ -27,26 +27,26 @@ const HomeBlogs =() =>{
                                 </div>
 
             <div className={style.subContainer}>
-            <Link to="/blogs/Why-is-Marketing-Important-for-Business?">
+            <Link className={style.subContainerLink} to="/blogs/Why-is-Marketing-Important-for-Business?">
                     <HomeBlogsCard 
                         src={   <img src={BL3} alt=">Why is marketing important for businesses?" height="300"/>} 
-                        tag="July 12, 2023 .. Marketing"
+                        tag="July 12, 2023"
                         title="Why is marketing important for businesses?"
                     />
                   </Link>  
-                  <Link to="/blogs/The-Importance-of-Visual-Content">
+                  <Link className={style.subContainerLink} to="/blogs/The-Importance-of-Visual-Content">
                     <HomeBlogsCard 
                         src={   <img src={BL2} alt="The Importance of
                         Visual Content Creation." height="300"/>} 
-                        tag="July 18, 2023 .. Editorial"
+                        tag="July 18, 2023"
                         title="The Importance of
                         Visual Content Creation."
                     />
                      </Link> 
-                     <Link to="/blogs/Some-of-the-Most-Viral-Advertisements">
+                     <Link className={style.subContainerLink} to="/blogs/Some-of-the-Most-Viral-Advertisements">
                     <HomeBlogsCard 
                         src={   <img src={BL1} alt=">Some of the Most Viral Advertisements" height="300"/>} 
-                        tag="July 22, 2022 .. Educational"
+                        tag="July 22, 2022"
                         title="Some of the Most Viral Advertisements"
                     />
                     </Link> 

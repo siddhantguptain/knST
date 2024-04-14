@@ -31,16 +31,22 @@
 .subContainer{
     display: flex;
     gap: 2rem;
+    justify-content: center;
 }
-
-@media screen and (max-width: 480px){
-    .container{
-        margin-bottom: 10vh;
-        padding: 1rem 0.5rem;
-    }
+.subContainerLink{
+    align-self: center;
+}
+@media screen and (max-width: 1400px){
     .subContainer{
         flex-direction: column;
     }
+}
+@media screen and (max-width: 480px){
+    .container{
+        margin-bottom: 10vh;
+        padding: 0rem;
+    }
+   
     .title{
         margin-top: 3rem;
         font-size: 1rem;

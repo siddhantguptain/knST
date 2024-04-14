@@ -39,7 +39,7 @@
     .subContainer{
         margin-top: 20px;
         min-height: 70vh;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         width: 94%;
     }
     .space{

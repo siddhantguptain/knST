@@ -43,13 +43,13 @@ const Home = () =>{
 
           <div className={style.mainContainer}>
               <div className={style.LandingContainer}>
-                       <HomeVideoSlider />
+                       {/* <HomeVideoSlider /> */}
              </div>
 
-             <HomeAbout />
+             {/* <HomeAbout /> */}
              <HomeService />
-             <HomeOurWork />
-             <HomeVision />
+             {/* <HomeOurWork /> */}
+             {/* <HomeVision /> */}
              <div className={style.queDiv}>
 
              <div className={style.sub}>

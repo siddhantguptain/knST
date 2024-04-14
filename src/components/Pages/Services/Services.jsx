@@ -28,16 +28,16 @@ const Services = () =>{
                     <div className={style.subServiceContainer}>
                             <div className={style.subServiceContainerOne}>
                                 <div className={style.subServiceContainerOneHead}>WE PROVIDE YOU WITH THE BEST SERVICE IN THE MARKET</div>
-                                <div className={style.subServiceContainerOnePara}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration, by injected humour. words</div>
+                                <div className={style.subServiceContainerOnePara}>Deadlines shouldn't be a source of stress.  At KNM Studio we consistently crush deadlines and deliver award-winning creative content.  We don't just meet your expectations, we exceed them.</div>
                             </div>
                             <div className={style.subServiceContainerTwo}>
-                                <div className={style.subServiceContainerTwoPara}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration, Injected humour words web page editors now use as their.</div><br />
-                                <div className={style.subServiceContainerTwoPara}>Default and a search for will uncover many web sites still in their infancy.suffered alteration, by injected humour words web page.</div>
+                                <div className={style.subServiceContainerTwoPara}>Our secret weapon?  Seamless collaboration.  We work closely with you throughout the entire process, ensuring every frame resonates with your vision and brand identity.  Forget communication gaps and frustrating revisions.  Our team of passionate creatives fosters trust and brings your unique vision to life with a smooth, collaborative approach.</div><br />
+                                <div className={style.subServiceContainerTwoPara}>craft impactful stories that captivate viewers and achieve your marketing objectives.  Partner with KNM Studio to stand out from the crowd with high-quality productions that elevate your brand.</div>
                             </div>                            
                          </div>
                         <div className={style.serImgContainer}>
-                            <img className={style.serviceContainerOne} src={SerOne} alt="Serices" heights={300} width={800} />
-                            <img className={style.serviceContainerTwo} src={SerTwo} alt="Serices" heights={300} width={355} />
+                            <img className={style.serviceImgContainerOne} src={SerOne} alt="Serices" width={800} />
+                            <img className={style.serviceImgContainerTwo} src={SerTwo} alt="Serices"  width={355} />
                         </div>
 
                      </div>
