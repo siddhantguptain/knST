@@ -36,7 +36,7 @@ const OurTeam =() =>{
             key:3,
             src:Sayali,
             name:"Sayali RasKar",
-            role:"Creative Head",
+            role:"Chief Editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },

@@ -48,10 +48,9 @@ const Home = () =>{
 
              {/* <HomeAbout /> */}
              <HomeService />
-             {/* <HomeOurWork /> */}
-             {/* <HomeVision /> */}
+             <HomeOurWork />
+             <HomeVision />
              <div className={style.queDiv}>
-
              <div className={style.sub}>
               <h3><FaCircle /></h3>
                       <div className={style.subTitle}>

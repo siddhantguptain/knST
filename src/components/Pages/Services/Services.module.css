@@ -83,6 +83,11 @@ flex: 2;
 .checkSer{
     padding: 10vh 6rem 0vh 6rem;
 }
+@media screen and (max-width: 1400px){
+    .serviceImgContainerTwo{
+        display: none;
+    }
+}
 @media screen and (max-width: 480px){
     .subContaierOne{
         margin-top: -150px;

@@ -24,12 +24,19 @@ const HomeOurWork =() =>{
         slidesToScroll: 3,
         responsive: [
             {
-              breakpoint: 480 ,
+              breakpoint: 1400 ,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            }, 
+            {
+              breakpoint: 912 ,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
               },
-            },
+            }
             
           ],
       };

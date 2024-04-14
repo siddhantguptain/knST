@@ -65,68 +65,68 @@ const OurWork = () =>{
     const OurWorkDATAOne =[
         {
                 src:ABM,
-                Vtyte:"ECommerce",
+                Vtype:"ECommerce",
                 title:"ACTIMAX BRAND MASTER"
         },
         {
             src:PLO,
-            Vtyte:"Corporate_Videos",
+            Vtype:"Corporate_Videos",
             title:"Plastic Omnium"
         },
         {
             src:LOR,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"Loreal Paris Rouge Signature"
         },
         {
                 src:X90,
-                Vtyte:"Advertisement",
+                Vtype:"Advertisement",
                 title:"Vivo X90 Series"
         },
         {
             src:O8S,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"One8 FUTURE"
         },
         {
             src:CBH,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"Chota Don VIPS Wallet"
         },
         
         {
                 src:AMC,
-                Vtyte:"ECommerce",
+                Vtype:"ECommerce",
                 title:"Aegte- Mens DD Cream"
         },
         {
             src:BHU,
-            Vtyte:"ECommerce",
+            Vtype:"ECommerce",
             title:"Bhumiya-Shrikhand"
         },
         {
             src:VFT,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"VIPS Finstock- Fortune Teller"
         },
         {
                 src:SPA,
-                Vtyte:"Informative Videos",
+                Vtype:"Informative Videos",
                 title:"Spardha School of Music 10000+"
         },
         {
             src:AMD,
-            Vtyte:"Corporate_Videos",
+            Vtype:"Corporate_Videos",
             title:"Amdocs"
         },
         {
             src:NP,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"Vivo V23 with Neha Pendse"
         },
         {
             src:VDI,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"VIPS Finstock- Diwali"
         },
         
@@ -134,63 +134,63 @@ const OurWork = () =>{
     const OurWorkDATATwo =[
         {
                 src:VIP,
-                Vtyte:"Advertisement",
+                Vtype:"Advertisement",
                 title:"VIPS Wallet Tapri"
         },
         {
             src:SPI,
-            Vtyte:"Corporate_Videos",
+            Vtype:"Corporate_Videos",
             title:"Vivo Travel with Arnab Satara"
         },
         {
             src:OAM,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"One8 Attitude"
         },
         {
                 src:VFS,
-                Vtyte:"Advertisement",
-                title:"VIPS Finstock - Right Time to Invest"
+                Vtype:"Advertisement",
+                title:"VIPS - Right Time to Invest"
         },
         {
             src:ASP,
-            Vtyte:"ECommerce",
+            Vtype:"ECommerce",
             title:"ACTIMAX Style With Pants"
         },
         {
             src:V25,
-            Vtyte:"Corporate_Videos",
+            Vtype:"Corporate_Videos",
             title:"Vivo V25"
         },
         
         {
                 src:ALK,
-                Vtyte:"Corporate_Videos",
+                Vtype:"Corporate_Videos",
                 title:"Alkegen"
         },
         {
             src:LIVA,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"LIVA"
         },
         {
             src:AEL,
-            Vtyte:"ECommerce",
+            Vtype:"ECommerce",
             title:"Aegte- Lip Balm"
         },
         {
                 src:GHR,
-                Vtyte:"Events",
+                Vtype:"Events",
                 title:"Godrej Hr Event"
         },
         {
             src:COL,
-            Vtyte:"Corporate_Videos",
+            Vtype:"Corporate_Videos",
             title:"Cologne Spa"
         },
         {
             src:AMB,
-            Vtyte:"ECommerce",
+            Vtype:"ECommerce",
             title:"Aegte- Beard Growth Serum"
         },
         
@@ -199,63 +199,63 @@ const OurWork = () =>{
     const OurWorkDATAThree =[
         {
                 src:MCA,
-                Vtyte:"Events",
+                Vtype:"Events",
                 title:"MCEA Award Night"
         },
         {
             src:VCN,
-            Vtyte:"Events",
+            Vtype:"Events",
             title:"Vivo Champions Night"
         },
         {
             src:DEV,
-            Vtyte:"Events",
+            Vtype:"Events",
             title:"Devfest 2022 GDG"
         },
         {
                 src:COM,
-                Vtyte:"Advertisement",
+                Vtype:"Advertisement",
                 title:"Coffee Machine Demo"
         },
         {
             src:APA,
-            Vtyte:"ECommerce",
+            Vtype:"ECommerce",
             title:"ACTIMAX Pants MASTER"
         },
         {
             src:PBCL,
-            Vtyte:"Events",
+            Vtype:"Events",
             title:"PBCL"
         },
         
         {
                 src:BBE,
-                Vtyte:"Corporate_Videos",
+                Vtype:"Corporate_Videos",
                 title:"Bharat Benz 100+ Bus Delivery"
         },
         {
             src:V29,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"Vivo V29e"
         },
         {
             src:KUM,
-            Vtyte:"ECommerce",
+            Vtype:"ECommerce",
             title:"The Indie Earth"
         },
         {
                 src:FSB,
-                Vtyte:"ECommerce",
+                Vtype:"ECommerce",
                 title:"FreeStyle - Sports Bra"
         },
         {
             src:OOB,
-            Vtyte:"Advertisement",
+            Vtype:"Advertisement",
             title:"One8-ONE BEAT ONE RULE"
         },
         {
             src:SHA,
-            Vtyte:"Informative Videos",
+            Vtype:"Informative Videos",
             title:"Spardha School of Music"
         },
         

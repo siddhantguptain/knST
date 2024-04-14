@@ -1,13 +1,13 @@
 .container{
     margin-top: 20vh;
-    padding: 2rem;
     min-height: 100vh;
 }
 .textContainer{
     display: flex;
+    gap: 50%;
 }
 .textContainerTwo{
-    margin: 70px 0 0 650px;
+    margin-top: 70px;
 }
 .subTitle{
     font-size: 0.7rem;
@@ -38,7 +38,7 @@
     gap: 2rem;
 }
 .subContainer{
-    margin: 2rem;
+    margin: 2rem 0rem;
     padding: 7rem 0  0 0 ;
     height: 400px;
     border: 0.5px solid rgb(38, 38, 38);
@@ -106,6 +106,10 @@
     .divTitle{
         font-size: 2rem;    
     }
+    .subContainer{
+        flex-direction: column;
+        height: 1200px;
+    }
 
 }
 @media screen and (max-width: 640px){
@@ -123,9 +127,6 @@
     .textContainer{
         padding: 1rem;
     }
-    .subContainer{
-        flex-direction: column;
-    }
     .title{
         margin-top: 3rem;
         font-size: 1rem;
@@ -135,6 +136,7 @@
         font-size: 1.5rem;    
     }
     .subContainer{
+        flex-direction: column;
         height: 1200px;
         margin: 0rem 2%;
         padding: 2rem 0 0 0;

@@ -9,6 +9,7 @@
 .cardImg{
     opacity: 0.8;
     object-fit: cover;
+    height: 550px;
 }
 
 .cardText{
@@ -16,19 +17,17 @@
     letter-spacing: 1px;
     color: white;
     margin: -45% 0 0 5%;
-  
 
-    .Vtype{
-        font-size: 16px;
-        font-weight: 400;
-        margin-bottom: -21px;
-        opacity: 0;
-    }
-    .title{
-        font-size: 38px;
-        font-weight: 600;
-    }
-
+}
+.Vtype{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: -25px;
+    opacity: 0;
+}
+.title{
+    font-size: 38px;
+    font-weight: 600;
 }
 
 .container:hover{
@@ -44,8 +43,8 @@
 }
 @media screen and (max-width: 480px){
     .container{
-        margin: 59px 2% 0px 2%;
-        width: 345px;
+        margin: 59px 0% 0px 0%;
+        width: 340px;
         height: 550px;
     
     }
