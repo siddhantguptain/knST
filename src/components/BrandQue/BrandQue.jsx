@@ -18,7 +18,7 @@ const BRAND_QUE = () =>{
                     <img src={A} alt="" height={130} weight={90} />
                     <img src={B} alt="" height={130} weight={90} />
                     <img src={C} alt="" height={130} weight={90} />
-                    <img src={E} alt="" height={130} weight={90} /><br/>
+                    <img src={E} alt="" height={130} weight={90} />
                     <img src={F} alt="" height={130} weight={90} />
                     <img src={G} alt="" height={130} weight={90} />
                     <img src={I} alt="" height={130} weight={90} />

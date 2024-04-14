@@ -1,13 +1,14 @@
 .container{
-    padding: 3rem 0 3rem 10rem;
-    max-width: 100%;
-    margin-left: 4rem;
+    padding: 3rem 0rem;
+    /* padding: 3rem 0 3rem 10rem; */
+    /* max-width: 100%; */
+    /* margin-left: 4rem; */
     
     /* overflow: hidden; */
     /* background-color: #ddd; */
-    white-space: nowrap;
+    /* white-space: nowrap; */
     /* background-color: transparent; */
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(200px);
 }
 
 
@@ -15,16 +16,22 @@
 /* .container:hover .brandList{
     animation-play-state: paused;
 } */
+.brandList{
+    color: white;
+    /* padding: 0.1rem; */
+    justify-content: center;
+    text-align: center;
+}
  .brandList img{
     margin: 0 0.1rem;
-    padding: 0.5rem 1rem ;
-    aspect-ratio: 2/1;
+    padding: 0.5rem ;
+    aspect-ratio: 3/1;
     border: 0.5px solid rgb(38, 38, 38);
     /* margin: 0 rem; */
     object-fit: contain;
     justify-content: center;
     /* border: 1px solid rgb(0, 0, 0.30); */
-    opacity: 1;
+    opacity: 99;
 }  
 .brandListPhone{
     display: none;
@@ -36,6 +43,7 @@
 
 @media screen and (max-width: 480px){
     .container{
+        justify-content: center;
         padding: 2rem 0.5rem;
         white-space: none;
     }
@@ -45,10 +53,10 @@
     .brandListPhone {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
     .brandListPhone img {
-        padding: 1rem;
+        padding: 1rem 0.1rem;
         border: 0.5px solid rgb(38, 38, 38);
         /* margin: 0 rem; */
         object-fit: contain;

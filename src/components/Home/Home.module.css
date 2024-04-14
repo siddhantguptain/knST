@@ -1,6 +1,3 @@
-.homeContainer{
-   
-}
 .mainContainer{
     min-height: 110vh;
     margin-top: -150px;
@@ -49,12 +46,7 @@
     font-size: 1.4rem;
     font-weight: 700;
 }
-.brandContainer{
-    margin-top: -2rem;
-    margin-left: -7rem;
-    width: 100vw;
-    /* background-color:rgb(0, 0, 0.1); */
-}
+
 /* 
 @media screen and (max-width: 1012px){
     .mainContainer{
@@ -78,13 +70,11 @@
         margin: 0vh 0vw;
     }
     .queDiv{
-        margin: 10vh 0 -10vh 0;
-        padding: 1rem;
+        margin: 10vh 0 5vh 0;
+        padding: 1rem 0.2rem;
     }
     .brandContainer{
         margin-top: 0rem;
-        margin-left:-3.5rem;
-        width: 100vw;
     }
     .subContainer{
         flex-direction: column;
