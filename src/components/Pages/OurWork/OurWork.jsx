@@ -46,15 +46,6 @@ import OOB from '../../../img/OurWorkThumnail/OOB.png';
 import VDI from '../../../img/OurWorkThumnail/VDI.png';
 import SHA from '../../../img/OurWorkThumnail/SHA.png';
 
-// const OurWorkCardDATA = [
-//     {
-//         title:"ACTIMAX BRAND MASTER",
-//         subTitle:"ECommerce",
-//         src:{ABM},
-//     }
-// ];
-
-
 const OurWork = () =>{
     const [displayType, setDisplayType] = useState("ALL");
 
@@ -130,8 +121,6 @@ const OurWork = () =>{
             title:"VIPS Finstock- Diwali"
         },
         
-    ]
-    const OurWorkDATATwo =[
         {
                 src:VIP,
                 Vtype:"Advertisement",
@@ -195,8 +184,6 @@ const OurWork = () =>{
         },
         
         
-    ]
-    const OurWorkDATAThree =[
         {
                 src:MCA,
                 Vtype:"Events",
@@ -287,39 +274,39 @@ const OurWork = () =>{
                 </div>   
                 <div className={style.subHead}>
 
-                    <div className={style.subHeadAction} onClick={() => 
+                    <div className={displayType === "Advertisement" ? `${style.subHeadActionACTIVE}` : `${style.subHeadAction}`}  onClick={() => 
                                 displayType !== "Advertisement"? setDisplayType("Advertisement") : setDisplayType("ALL")}>ADVERTISEMENT 
-                         ||
-                    </div>
+                        
+                    </div>||
                      
                     
-                    <div className={style.subHeadAction} onClick={() => 
+                    <div className={displayType === "Events" ? `${style.subHeadActionACTIVE}` : `${style.subHeadAction}`}  onClick={() => 
                                 displayType !== "Events"? setDisplayType("Events") : setDisplayType("ALL")}>EVENTS 
-                         ||
-                    </div>
+                         
+                    </div>||
                      
                     
-                    <div className={style.subHeadAction} onClick={() => 
+                    <div className={displayType === "Corporate_Videos" ? `${style.subHeadActionACTIVE}` : `${style.subHeadAction}`}  onClick={() => 
                                 displayType !== "Corporate_Videos"? setDisplayType("Corporate_Videos") : setDisplayType("ALL")}>CORPORATE VIDEOS 
-                         ||
-                    </div>
+                         
+                    </div>||
                      
                     
-                    <div className={style.subHeadAction} onClick={() => 
+                    <div className={displayType === "Informative Videos" ? `${style.subHeadActionACTIVE}` : `${style.subHeadAction}`}  onClick={() => 
                                 displayType !== "Informative Videos"? setDisplayType("Informative Videos") : setDisplayType("ALL")}>INFORMATIVE VIDEOS 
-                         ||
-                    </div>
+                         
+                    </div>||
                       
                     
-                    <div className={style.subHeadAction} onClick={() => 
+                    <div className={displayType === "ECommerce" ? `${style.subHeadActionACTIVE}` : `${style.subHeadAction}`}  onClick={() => 
                                 displayType !== "ECommerce"? setDisplayType("ECommerce") : setDisplayType("ALL")}>E-COMMERCE
                     </div>
                 
                 </div>   
                             {console.log(displayType)}
                 <div className={style.Dis}>
-                    <div className={style.DisOne}> 
                     {OurWorkDATAOne.map((el) =>(
+                        // displayType === "ALL" ?
                         <OurWorkCard 
                             key={el.key}
                             src={el.src}
@@ -327,31 +314,17 @@ const OurWork = () =>{
                             Vtype={el.Vtype}
                             displayType={displayType}
                         /> 
+                    //     displayType === el.Vtype ?
+                    //     <OurWorkCard 
+                    //     key={el.key}
+                    //     src={el.src}
+                    //     title={el.title}
+                    //     Vtype={el.Vtype}
+                    //     displayType={displayType}
+                    // /> : null
+
                 ))}  
                   </div>
-                  <div className={style.DisTwo}>   
-                  {OurWorkDATATwo.map((el) =>(
-                        <OurWorkCard 
-                            key={el.key}
-                            src={el.src}
-                            title={el.title}
-                            Vtype={el.Vtype}
-                            displayType={displayType}
-                        />
-                ))}
-                  </div>   
-                  <div className={style.DisThree}> 
-                  {OurWorkDATAThree.map((el) =>(
-                        <OurWorkCard 
-                            key={el.key}
-                            src={el.src}
-                            title={el.title}
-                            Vtype={el.Vtype}
-                            displayType={displayType}
-                        />
-                ))} 
-                  </div>  
-                  </div>  
              </div>   
 
          </div>   
