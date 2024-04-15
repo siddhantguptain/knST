@@ -1,4 +1,4 @@
-.subContaierOne{
+    .subContaierOne{
     margin-top: -150px;
     padding: 36vh 0 0 7vw ;
     min-height:90vh;
@@ -85,10 +85,14 @@ flex: 2;
 }
 @media screen and (max-width: 1400px){
     .serviceImgContainerTwo{
+        width: 600px;
+    }
+    .serviceImgContainerTwo{
         display: none;
     }
+
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 980px){
     .subContaierOne{
         margin-top: -150px;
         padding: 35vh 0 0 5vw ;
@@ -161,10 +165,8 @@ flex: 2;
         padding-left: 4vw;
         height: 250px;
         width: 350px;
-    }.serImgContainer img:nth-child(2){
-       display: none;
     }
     .checkSer{
-        padding: 10vh 1rem 0vh 1rem;
+        padding: 10vh 0rem 0vh 1.5rem;
     }
 }    

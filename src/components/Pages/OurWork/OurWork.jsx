@@ -303,7 +303,6 @@ const OurWork = () =>{
                     </div>
                 
                 </div>   
-                            {console.log(displayType)}
                 <div className={style.Dis}>
                     {OurWorkDATAOne.map((el) =>(
                         // displayType === "ALL" ?

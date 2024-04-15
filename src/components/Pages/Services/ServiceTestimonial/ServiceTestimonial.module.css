@@ -22,18 +22,19 @@
 .testimonial{
     padding: 10px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 980px){
     .container{
         margin-top: 10vh;
         min-height: 90vh;
+       
     }
     
     .title{
         margin: 1rem;
         letter-spacing: 2px;
-        text-align: center;
         font-size: 2.5rem;
         font-weight: 200;
+        
     }
     
     .subContainer{
@@ -41,6 +42,7 @@
         min-height: 70vh;
         /* margin-left: 10px; */
         width: 94%;
+       
     }
     .space{
         margin-top: 7px;

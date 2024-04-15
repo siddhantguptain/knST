@@ -49,7 +49,7 @@ const HomeTestimonial =() =>{
         slidesToScroll: 1,
         responsive: [
             {
-              breakpoint: 480 ,
+              breakpoint: 1250 ,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
